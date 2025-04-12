@@ -1,0 +1,13 @@
+{
+"transport": "wss",
+"auth": "firebase-admin",
+"permissions": {
+"self_modify": true,
+"context_access": "full",
+"model_switching": true
+},
+"endpoints": [
+"vertex-ai.podplay.uk",
+"livekit.podplay.uk:7881"
+]
+}

@@ -1,0 +1,430 @@
+
+
+############################################################
+DOCUMENTATION: firebase_google_com
+############################################################
+
+
+
+==================================================
+PAGE: index
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: guides
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: build
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: run
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: reference
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: samples
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: ios/setup
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: android/setup
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: web/setup
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: flutter/setup
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: cpp/setup
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: unity/setup
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: admin/setup
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: projects/learn-more
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: libraries
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: emulator-suite
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: gemini-in-firebase
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: auth
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: app-check
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+==================================================
+PAGE: data-connect
+==================================================
+
+Whether you learn by reading or by doing, Firebase offers you many resources to
+  become skillful with our products.
+
+Descriptive how-to content with both high-level introductions and step-by-step workflows for using Firebase products. Find Firebase guides under theFundamentals,Build, andRuntabs at the top of the page.
+
+Guided tutorials with hands-on coding to develop practical experience and build working code and apps. Start a Firebase codelab foriOS,Android, orWeb.
+
+Formal reference documentation for Firebase SDKs, Firebase REST APIs, and Firebase tools. Find Firebase reference docs under theReferencetab at the top of the page.
+
+Fully working code to get started fast and see real-world integrations of Firebase features. Explore Firebase quickstarts and samples in theSamplestab at the top of the page.
+
+
+
+############################################################
+DOCUMENTATION: cloud_google_com
+############################################################
+
+
+
+==================================================
+PAGE: index
+==================================================
+
+# What is Apigee API hub?Stay organized with collectionsSave and categorize content based on your preferences.
+
+This page
+applies toApigeeandApigee hybrid.
+
+Apigee API hub lets you consolidate and organize information about all of the APIs of interest to
+  your organization. API hub lets you capture critical information about APIs that allows developers to discover
+  and evaluate them easily and leverage the work of other teams wherever possible. API platform teams can use
+  API hub to gain visibility into and manage their portfolio of APIs.
+
+Many organizations are challenged by the increasing number of APIs that they
+    develop and use. As the number of APIs increases, they become harder to track,
+    which can lead to duplication rather than reuse, an expensive inefficiency.
+    When APIs proliferate without design standards and governance checks, the
+    API landscape grows inconsistent, slowing teams down, while a well-organized
+    API program helps them go faster.
+
+The API hub experience is primarily aimed at consumers and producers of APIs
+    within an organization whose main concerns are finding, listing, comparing, and evaluating APIs
+    both within and external to the organization's network ecosystem.
+    API hub allows you to manage a complete catalog of all your APIs along with their associated
+    entities, including API versions, dependencies, deployments, and more. You can also associate
+    API specifications with API versions, and for OpenAPI specs, API hub parses them and extracts
+    metadata, including API operations. In addition, you can link an API version to a particular
+    API deployment endpoint.
+
+API hub administrators can:
+
+With API hub, you bring rich information about your APIs together into
+    one place to accelerate the consistency, use, reuse, and governance of your API
+    portfolio.
+
+AnAPI resourcerepresents an API that exists within your
+    organization's network ecosystem. API
+    resources stored in API hub are searchable and provide detailed operational and descriptive
+    information about the API such as deployments, versions, operations, lifecycle stage, and other key attributes.
+
+The ability to model and organizeAPI versionsis a key feature of API hub.
+      Every API resource in API hub has at least one version associated with it. You can
+      think of a version as the state of an API at a point in time. Fundamentally, versions
+      help you group and organize your APIs based on underlying sets of operations, deployments,
+      and other metadata.
+
+Auto-registration refers to getting API data from external systems into API hub.
+    You can register all the proxies present in an Apigee or Apigee hybrid runtime project directly in API hub
+    by attaching your runtime project to API hub. SeeAuto-register Apigee proxies.
+
+Another key API hub feature is its ability toparse certain API specifications,
+        such as OpenAPI specs, into their contained definitions, operations, and other key components,
+        and store that information with an API resource. API hub also provides linting feedback
+        for imported specifications.
+
+API hub's powerfulsearch capabilitiessupport both LLM-based
+      free-text and filter-based search operations that let you search based on any part
+      of the API definition. These powerful search tools enable you to identify the API asset
+      that serves specific use cases so that you can either avoid rebuilding or duplicating API
+      engineering efforts.
+
+API hubAPI supply chainhelps you view and manage the operational
+    relationships ordependenciesbetween your APIs. Finding and tracking an API's dependencies
+    helps you manage your API ecosystem more efficiently and troubleshoot broken API operations.
+
+Except as otherwise noted, the content of this page is licensed under theCreative Commons Attribution 4.0 License, and code samples are licensed under theApache 2.0 License. For details, see theGoogle Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-04-10 UTC.
+
+
+
+############################################################
+DOCUMENTATION: google_github_io
+############################################################
+

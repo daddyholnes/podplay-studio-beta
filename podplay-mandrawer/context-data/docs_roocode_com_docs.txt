@@ -1,0 +1,5826 @@
+
+
+==================================================
+PAGE: index
+URL: https://docs.roocode.com/
+==================================================
+
+TITLE: Roo Code Docs | Roo Code Docs
+
+
+H1 HEADINGS:
+Roo Code Docs
+
+H2 HEADINGS:
+What Can Roo Code Do?​
+Quick Start​
+Key Features​
+Resources​
+
+H3 HEADINGS:
+Multiple Modes​
+Smart Tools​
+Customization​
+Documentation​
+Community​
+
+CONTENT:
+Roo Code (formerly Roo Cline) is an AI-powered autonomous coding agent that lives in your editor. It helps you code faster and smarter, whether you're starting a new project, maintaining existing code, or learning new technologies.
+
+Roo Code adapts to your needs with specializedmodes:
+
+Roo Code comes with powerfultoolsthat can:
+
+MCP extends Roo Code's capabilities by allowing you to add unlimited custom tools. Integrate with external APIs, connect to databases, or create specialized development tools - MCP provides the framework to expand Roo Code's functionality to meet your specific needs.
+
+Make Roo Code work your way with:
+
+Ready to get started? Click theNextbutton below to begin your journey with Roo Code!
+
+
+LISTS:
+- Welcome
+- Getting Started
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- 
+- Welcome
+
+- 🚀Generate Codefrom natural language descriptions
+- 🔧Refactor & Debugexisting code
+- 📝Write & Updatedocumentation
+- 🤔Answer Questionsabout your codebase
+- 🔄Automaterepetitive tasks
+- 🏗️Createnew files and projects
+
+- Code Mode:For general-purpose coding tasks
+- Architect Mode:For planning and technical leadership
+- Ask Mode:For answering questions and providing information
+- Debug Mode:For systematic problem diagnosis
+- Custom Modes:Create unlimited specialized personas for security auditing, performance optimization, documentation, or any other task
+
+- Read and write files in your project
+- Execute commands in your VS Code terminal
+- Control a web browser
+- Use external tools viaMCP (Model Context Protocol)
+
+- Custom Instructionsfor personalized behavior
+- Custom Modesfor specialized tasks
+- Local Modelsfor offline use
+- Auto-Approval Settingsfor faster workflows
+
+- Basic Usage Guide
+- Advanced Features
+- Frequently Asked Questions
+
+- Discord:Join our Discord serverfor real-time help and discussions
+- Reddit:Visit our subredditto share experiences and tips
+- GitHub:Reportissuesor requestfeatures
+
+- What Can Roo Code Do?
+- Quick Start
+- Key FeaturesMultiple ModesSmart ToolsCustomization
+- ResourcesDocumentationCommunity
+
+- Multiple Modes
+- Smart Tools
+- Customization
+
+- Documentation
+- Community
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Install Roo Code
+- Connect Your AI Provider
+- Try Your First Task
+
+
+
+==================================================
+PAGE: getting-started/installing
+URL: https://docs.roocode.com/getting-started/installing
+==================================================
+
+TITLE: Installing Roo Code | Roo Code Docs
+
+
+H1 HEADINGS:
+Installing Roo Code
+
+H2 HEADINGS:
+VS Code Marketplace​
+Open VSX Registry​
+Manual Installation from VSIX​
+Development Builds​
+Troubleshooting​
+Getting Support​
+
+CONTENT:
+Roo Code is a VS Code extension that brings AI-powered coding assistance directly to your editor. Install using one of these methods:
+
+After installation, find the Roo Code icon () in the Activity Bar to open the Roo Code panel.
+
+VS Code marketplace with Roo Code extension ready to install
+
+For VS Code-compatible editors without Marketplace access (like VSCodium and Windsurf):
+
+Open VSX Registry with Roo Code extension ready to install
+
+If you prefer to download and install the VSIX file directly:
+
+Download the VSIX file:
+
+Install in VS Code:
+
+Installing Roo Code using VS Code's "Install from VSIX" dialog
+
+This section is intended only for developers contributing to Roo Code.
+
+If you're building Roo Code from source:
+
+Installing a development build using VS Code's "Install from VSIX" dialog
+
+VS Code Output panel showing Roo Code logs for troubleshooting
+
+Extension Not Visible
+
+Installation Problems
+
+If you encounter issues not covered here:
+
+
+LISTS:
+- Welcome
+- Getting StartedInstalling Roo CodeConnecting To A ProviderYour First TaskThe Chat InterfaceTyping Your RequestsHow Tools WorkContext MentionsUsing ModesTips & Tricks
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Installing Roo Code
+- Connecting To A Provider
+- Your First Task
+- The Chat Interface
+- Typing Your Requests
+- How Tools Work
+- Context Mentions
+- Using Modes
+- Tips & Tricks
+
+- 
+- Getting Started
+- Installing Roo Code
+
+- Find official releases on theRoo Code GitHub Releases page
+- Download the.vsixfile from the latest release
+
+- Open VS Code
+- Access Extensions view
+- Click the "..." menu in the Extensions view
+- Select "Install from VSIX..."
+- Browse to and select your downloaded.vsixfile
+
+- Restart VS Code
+- Verify Roo Code is listed and enabled in Extensions
+- Try disabling and re-enabling
+- Check Output panel for errors (View → Output, select "Roo Code")
+
+- Ensure stable internet connection
+- Verify VS Code version 1.84.0 or later
+- If VS Code Marketplace is inaccessible, try the Open VSX Registry method
+
+- Join ourDiscord communityfor real-time support
+- Submit issues onGitHub
+- Visit ourReddit community
+
+- VS Code Marketplace
+- Open VSX Registry
+- Manual Installation from VSIX
+- Development Builds
+- Troubleshooting
+- Getting Support
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- VS Code Marketplace (Recommended)- fastest method for standard VS Code and Cursor users
+- Open VSX Registry- for VS Code-compatible editors like VSCodium
+
+- Open VS Code
+- Access Extensions: Click the Extensions icon in the Activity Bar or pressCtrl+Shift+X(Windows/Linux) orCmd+Shift+X(macOS)
+- Search for "Roo Code"
+- Select "Roo Code" by RooVeterinaryInc and clickInstall
+- Reload VS Code if prompted
+
+- Open your editor
+- Access the Extensions view
+- Search for "Roo Code"
+- Select "Roo Code" by RooVeterinaryInc and clickInstall
+- Reload if prompted
+
+- Download the VSIX file:Find official releases on theRoo Code GitHub Releases pageDownload the.vsixfile from the latest release
+- Install in VS Code:Open VS CodeAccess Extensions viewClick the "..." menu in the Extensions viewSelect "Install from VSIX..."Browse to and select your downloaded.vsixfile
+
+- Runnpm run buildin the project directory
+- Find the generated VSIX file in thebin/directory
+- In VS Code, open Extensions view and select "Install from VSIX..." from the "..." menu
+- Browse to and select your generated.vsixfile
+
+
+CODE EXAMPLES:
+```
+Ctrl+Shift+X
+```
+
+```
+Cmd+Shift+X
+```
+
+```
+.vsix
+```
+
+```
+.vsix
+```
+
+```
+npm run build
+```
+
+```
+bin/
+```
+
+```
+.vsix
+```
+
+
+
+==================================================
+PAGE: features/api-configuration-profiles
+URL: https://docs.roocode.com/features/api-configuration-profiles
+==================================================
+
+TITLE: API Configuration Profiles | Roo Code Docs
+
+
+H1 HEADINGS:
+API Configuration Profiles
+
+H2 HEADINGS:
+How It Works​
+Creating and Managing Profiles​
+Linking Profiles to Modes​
+Security Note​
+Related Features​
+
+H3 HEADINGS:
+Creating a Profile​
+Switching Profiles​
+Pinning and Sorting Profiles​
+Editing and Deleting Profiles​
+
+CONTENT:
+API Configuration Profiles allow you to create and switch between different sets of AI settings. Each profile can have different configurations for each mode, letting you optimize your experience based on the task at hand.
+
+Having multiple configuration profiles lets you quickly switch between different AI providers, models, and settings without reconfiguring everything each time you want to change your setup.
+
+Configuration profiles can have their own:
+
+Note that available settings vary by provider and model. Each provider offers different configuration options, and even within the same provider, different models may support different parameter ranges or features.
+
+Open Settings by clicking the gear icon→ Providers
+
+Click the "+" button next to the profile selector
+
+Enter a name for your new profile
+
+Configure the profile settings:
+
+Select your API provider
+
+Enter API key
+
+Choose a model
+
+Configure theRate Limitfor this profile:
+
+Default is 0 (disabled), which is suitable for most users.If needed, you can set a minimum time (in seconds) between API requestsfor this profileto help manage costs or avoid provider rate limits.
+
+A value of 0 disables rate limiting (default).
+
+Requests using other profiles follow their own rate limits.
+
+Adjust model parameters (liketemperature)
+
+Switch profiles in two ways:
+
+From Settings panel: Select a different profile from the dropdown
+
+During chat: Access the API Configuration dropdown in the chat interface
+
+The API configuration dropdown now supports pinning your favorite profiles for quicker access:
+
+This feature makes it easier to navigate between commonly used profiles, especially when you have many configurations.
+
+In thePrompts tab, you can explicitly associate a specific Configuration Profile with each Mode. The system also automatically remembers which profile you last used with each mode, making your workflow more efficient.
+
+API keys are stored securely in VSCode's Secret Storage and are never exposed in plain text.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- API Configuration Profiles
+
+- API providers (OpenAI, Anthropic, OpenRouter, Glama, etc.)
+- API keys and authentication details
+- Model selections (o3-mini-high, Claude 3.7 Sonnet, DeepSeek R1, etc.)
+- Temperature settingsfor controlling response randomness
+- Thinking budgets
+- Provider-specific settings
+- Rate limit settings
+
+- Select your API provider
+- Enter API key
+- Choose a model
+- Configure theRate Limitfor this profile:Default is 0 (disabled), which is suitable for most users.If needed, you can set a minimum time (in seconds) between API requestsfor this profileto help manage costs or avoid provider rate limits.A value of 0 disables rate limiting (default).Requests using other profiles follow their own rate limits.
+- Adjust model parameters (liketemperature)
+
+- Default is 0 (disabled), which is suitable for most users.If needed, you can set a minimum time (in seconds) between API requestsfor this profileto help manage costs or avoid provider rate limits.
+- A value of 0 disables rate limiting (default).
+- Requests using other profiles follow their own rate limits.
+
+- Select the profile in Settings to modify any settings
+- Click the pencil icon to rename a profile
+- Click the trash icon to delete a profile (you cannot delete the only remaining profile)
+
+- Works withcustom modesyou create
+- Integrates withlocal modelsfor offline work
+- Supportstemperature settingsper mode
+- Supports per-profile rate limits (configured here) and generalusage tracking/cost info
+
+- How It Works
+- Creating and Managing ProfilesCreating a ProfileSwitching ProfilesPinning and Sorting ProfilesEditing and Deleting Profiles
+- Linking Profiles to Modes
+- Security Note
+- Related Features
+
+- Creating a Profile
+- Switching Profiles
+- Pinning and Sorting Profiles
+- Editing and Deleting Profiles
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Open Settings by clicking the gear icon→ Providers
+- Click the "+" button next to the profile selector
+- Enter a name for your new profile
+- Configure the profile settings:Select your API providerEnter API keyChoose a modelConfigure theRate Limitfor this profile:Default is 0 (disabled), which is suitable for most users.If needed, you can set a minimum time (in seconds) between API requestsfor this profileto help manage costs or avoid provider rate limits.A value of 0 disables rate limiting (default).Requests using other profiles follow their own rate limits.Adjust model parameters (liketemperature)
+
+- From Settings panel: Select a different profile from the dropdown
+- During chat: Access the API Configuration dropdown in the chat interface
+
+- Hover over any profile in the dropdown to reveal the pin icon
+- Click the pin icon to add the profile to your pinned list
+- Pinned profiles appear at the top of the dropdown, sorted alphabetically
+- Unpinned profiles appear below a separator, also sorted alphabetically
+- You can unpin a profile by clicking the same icon again
+
+
+
+==================================================
+PAGE: advanced-usage/prompt-engineering
+URL: https://docs.roocode.com/advanced-usage/prompt-engineering
+==================================================
+
+TITLE: Prompt Engineering Tips | Roo Code Docs
+
+
+H1 HEADINGS:
+Prompt Engineering Tips
+
+H2 HEADINGS:
+General Principles​
+Thinking vs. Doing​
+Using Custom Instructions​
+Handling Ambiguity​
+Providing Feedback​
+Examples​
+
+CONTENT:
+Prompt engineering is the art of crafting effective instructions for AI models like Roo Code.  Well-written prompts lead to better results, fewer errors, and a more efficient workflow.
+
+Be Clear and Specific:Clearly state what you want Roo Code to do. Avoid ambiguity.
+
+Provide Context:UseContext Mentionsto refer to specific files, folders, or problems.
+
+Break Down Tasks:Divide complex tasks into smaller, well-defined steps.
+
+Give Examples:If you have a specific coding style or pattern in mind, provide examples.
+
+Specify Output Format:If you need the output in a particular format (e.g., JSON, Markdown), specify it in the prompt.
+
+Iterate:Don't be afraid to refine your prompt if the initial results aren't what you expect.
+
+It's often helpful to guide Roo Code through a "think-then-do" process:
+
+You can provide custom instructions to further tailor Roo Code's behavior. There are two types of custom instructions:
+
+Custom instructions are added to the system prompt, providing persistent guidance to the AI model. You can use these to:
+
+See theCustom Instructionssection for more details.
+
+If your request is ambiguous or lacks sufficient detail, Roo Code might:
+
+It's generally better to provide clear and specific instructions from the start to avoid unnecessary back-and-forth.
+
+If Roo Code doesn't produce the desired results, you can provide feedback by:
+
+Good Prompt:
+
+@/src/components/Button.tsxRefactor theButtoncomponent to use theuseStatehook instead of theuseReducerhook.
+
+Bad Prompt:
+
+Fix the button.
+
+Good Prompt:
+
+Create a new file namedutils.pyand add a function calledcalculate_averagethat takes a list of numbers and returns their average.
+
+Bad Prompt:
+
+Write some Python code.
+
+Good Prompt:
+
+@problemsAddress all errors and warnings in the current file.
+
+Bad Prompt:
+
+Fix everything.
+
+By following these tips, you can write effective prompts that get the most out of Roo Code's capabilities.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- Features
+- Advanced UsagePrompt Engineering TipsWorking with Large ProjectsRate Limits and CostsUsing Local Models
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Prompt Engineering Tips
+- Working with Large Projects
+- Rate Limits and Costs
+- Using Local Models
+
+- 
+- Advanced Usage
+- Prompt Engineering Tips
+
+- Be Clear and Specific:Clearly state what you want Roo Code to do. Avoid ambiguity.Bad:Fix the code.Good:Fix the bug in thecalculateTotalfunction that causes it to return incorrect results.
+- Provide Context:UseContext Mentionsto refer to specific files, folders, or problems.Good:@/src/utils.tsRefactor thecalculateTotalfunction to use async/await.
+- Break Down Tasks:Divide complex tasks into smaller, well-defined steps.
+- Give Examples:If you have a specific coding style or pattern in mind, provide examples.
+- Specify Output Format:If you need the output in a particular format (e.g., JSON, Markdown), specify it in the prompt.
+- Iterate:Don't be afraid to refine your prompt if the initial results aren't what you expect.
+
+- Bad:Fix the code.
+- Good:Fix the bug in thecalculateTotalfunction that causes it to return incorrect results.
+
+- Good:@/src/utils.tsRefactor thecalculateTotalfunction to use async/await.
+
+- Global Custom Instructions:Apply to all modes.
+- Mode-Specific Custom Instructions:Apply only to a specific mode (e.g., Code, Architect, Ask, Debug, or a custom mode).
+
+- Enforce coding style guidelines.
+- Specify preferred libraries or frameworks.
+- Define project-specific conventions.
+- Adjust Roo Code's tone or personality.
+
+- Make Assumptions:It might proceed based on its best guess, which may not be what you intended.
+- Ask Follow-Up Questions:It might use theask_followup_questiontool to clarify your request.
+
+- Rejecting Actions:Click the "Reject" button when Roo Code proposes an action you don't want.
+- Providing Explanations:When rejecting, explainwhyyou're rejecting the action.  This helps Roo Code learn from its mistakes.
+- Rewording Your Request:Try rephrasing your initial task or providing more specific instructions.
+- Manually Correcting:If there are a few small issues, you can also directly modify the code before accepting the changes.
+
+- General Principles
+- Thinking vs. Doing
+- Using Custom Instructions
+- Handling Ambiguity
+- Providing Feedback
+- Examples
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Analyze:Ask Roo Code to analyze the current code, identify problems, or plan the approach.
+- Plan:Have Roo Code outline the steps it will take to complete the task.
+- Execute:Instruct Roo Code to implement the plan, one step at a time.
+- Review:Carefully review the results of each step before proceeding.
+
+
+CODE EXAMPLES:
+```
+calculateTotal
+```
+
+```
+@/src/utils.ts
+```
+
+```
+calculateTotal
+```
+
+```
+ask_followup_question
+```
+
+```
+@/src/components/Button.tsx
+```
+
+```
+Button
+```
+
+```
+useState
+```
+
+```
+useReducer
+```
+
+```
+utils.py
+```
+
+```
+calculate_average
+```
+
+```
+@problems
+```
+
+
+
+==================================================
+PAGE: providers/anthropic
+URL: https://docs.roocode.com/providers/anthropic
+==================================================
+
+TITLE: Using Anthropic With Roo Code | Roo Code Docs
+
+
+H1 HEADINGS:
+Using Anthropic With Roo Code
+
+H2 HEADINGS:
+Getting an API Key​
+Supported Models​
+Configuration in Roo Code​
+Tips and Notes​
+
+CONTENT:
+Anthropic is an AI safety and research company that builds reliable, interpretable, and steerable AI systems.  Their Claude models are known for their strong reasoning abilities, helpfulness, and honesty.
+
+Website:https://www.anthropic.com/
+
+Roo Code supports the following Anthropic Claude models:
+
+SeeAnthropic's Model Documentationfor more details on each model's capabilities.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- Features
+- Advanced Usage
+- Model ProvidersAnthropicAWS BedrockDeepSeekGCP Vertex AIGoogle GeminiGlamaHuman Relay ProviderLM StudioMistral AIOllamaOpenAIOpenAI CompatibleOpenRouterRequestyUnboundVS Code Language Model API
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Anthropic
+- AWS Bedrock
+- DeepSeek
+- GCP Vertex AI
+- Google Gemini
+- Glama
+- Human Relay Provider
+- LM Studio
+- Mistral AI
+- Ollama
+- OpenAI
+- OpenAI Compatible
+- OpenRouter
+- Requesty
+- Unbound
+- VS Code Language Model API
+
+- 
+- Model Providers
+- Anthropic
+
+- claude-3-7-sonnet-20250219(Recommended)
+- claude-3-7-sonnet-20250219:thinking(Extended Thinking variant)
+- claude-3-5-sonnet-20241022
+- claude-3-5-haiku-20241022
+- claude-3-opus-20240229
+- claude-3-haiku-20240307
+
+- Prompt Caching:Claude 3 models supportprompt caching, which can significantly reduce costs and latency for repeated prompts.
+- Context Window:Claude models have large context windows (200,000 tokens), allowing you to include a significant amount of code and context in your prompts.
+- Pricing:Refer to theAnthropic Pricingpage for the latest pricing information.
+- Rate Limits:Anthropic has strict rate limits based onusage tiers. If you're repeatedly hitting rate limits, consider contacting Anthropic sales or accessing Claude through a different provider likeOpenRouterorRequesty.
+
+- Getting an API Key
+- Supported Models
+- Configuration in Roo Code
+- Tips and Notes
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Sign Up/Sign In:Go to theAnthropic Console. Create an account or sign in.
+- Navigate to API Keys:Go to theAPI keyssection.
+- Create a Key:Click "Create Key". Give your key a descriptive name (e.g., "Roo Code").
+- Copy the Key:Important:Copy the API keyimmediately.  You will not be able to see it again.  Store it securely.
+
+- Open Roo Code Settings:Click the gear icon () in the Roo Code panel.
+- Select Provider:Choose "Anthropic" from the "API Provider" dropdown.
+- Enter API Key:Paste your Anthropic API key into the "Anthropic API Key" field.
+- Select Model:Choose your desired Claude model from the "Model" dropdown.
+- (Optional) Custom Base URL:If you need to use a custom base URL for the Anthropic API, check "Use custom base URL" and enter the URL. Most people won't need to adjust this.
+
+
+CODE EXAMPLES:
+```
+claude-3-7-sonnet-20250219
+```
+
+```
+claude-3-7-sonnet-20250219:thinking
+```
+
+```
+claude-3-5-sonnet-20241022
+```
+
+```
+claude-3-5-haiku-20241022
+```
+
+```
+claude-3-opus-20240229
+```
+
+```
+claude-3-haiku-20240307
+```
+
+
+
+==================================================
+PAGE: faq
+URL: https://docs.roocode.com/faq
+==================================================
+
+TITLE: Frequently Asked Questions | Roo Code Docs
+
+
+H1 HEADINGS:
+Frequently Asked Questions
+
+H2 HEADINGS:
+General​
+Setup & Installation​
+Usage​
+Advanced Features​
+Troubleshooting​
+
+H3 HEADINGS:
+What is Roo Code?​
+How does Roo Code work?​
+What can Roo Code do?​
+Is Roo Code free to use?​
+What are the risks of using Roo Code?​
+How do I install Roo Code?​
+Which API providers are supported?​
+How do I get an API key?​
+Can I use Roo Code with local models?​
+How do I start a new task?​
+What are modes in Roo Code?​
+How do I switch between modes?​
+What are tools and how do I use them?​
+What are context mentions?​
+Can Roo Code access the internet?​
+Can Roo Code run commands in my terminal?​
+How do I provide feedback to Roo Code?​
+Can I customize Roo Code's behavior?​
+Does Roo Code have any auto approval settings?​
+Can I use Roo offline?​
+What is MCP (Model Context Protocol)?​
+Can I create my own MCP servers?​
+Roo Code isn't responding. What should I do?​
+I'm seeing an error message. What does it mean?​
+Roo Code made changes I didn't want. How do I undo them?​
+How do I report a bug or suggest a feature?​
+
+CONTENT:
+This page answers some common questions about Roo Code.
+
+Roo Code is an AI-powered autonomous coding agent that lives in your editor.
+
+Roo Code uses large language models (LLMs) to understand your requests and translate them into actions.  It can:
+
+You interact with Roo Code through a chat interface, where you provide instructions and review/approve its proposed actions.
+
+Roo Code can help with a variety of coding tasks, including:
+
+The Roo Code extension itself is free and open-source. However, Roo Code relies on external API providers (likeAnthropic,OpenAI,OpenRouter,Requesty, etc.) for its AI capabilities.  These providers typically charge for API usage based on the number of tokens processed.  You will need to create an account and obtain an API key from your chosen provider.  SeeSetting Up Your First AI Providerfor details.
+
+Roo Code is a powerful tool, and it's important to use it responsibly.  Here are some things to keep in mind:
+
+See theInstallation Guidefor detailed instructions.
+
+Roo Code supports a wide range of API providers, including:
+
+Each API provider has its own process for obtaining an API key.  See theSetting Up Your First AI Providerfor links to the relevant documentation for each provider.
+
+Yes, Roo Code supports running models locally usingOllamaandLM Studio.  SeeUsing Local Modelsfor instructions.
+
+Open the Roo Code panel () and type your task in the chat box. Be clear and specific about what you want Roo Code to do. SeeTyping Your Requestsfor best practices.
+
+Modesare different personas that Roo Code can adopt, each with a specific focus and set of capabilities. The built-in modes are:
+
+Use the dropdown menu in the chat input area to select a different mode, or use the/command to switch to a specific mode.
+
+Toolsare how Roo Code interacts with your system.  Roo Code automatically selects and uses the appropriate tools to complete your tasks. You don't need to call tools directly. You will be prompted to approve or reject each tool use.
+
+Context mentionsare a way to provide Roo Code with specific information about your project, such as files, folders, or problems. Use the "@" symbol followed by the item you want to mention (e.g.,@/src/file.ts,@problems).
+
+Yes, if you are using a provider with a model that support web browsing. Be mindful of the security implications of allowing this.
+
+Yes, Roo Code can execute commands in your VS Code terminal.  You will be prompted to approve each command before it's executed, unless you've enabled auto-approval for commands. Be extremely cautious about auto-approving commands. If you're experiencing issues with terminal commands, see theShell Integration Guidefor troubleshooting.
+
+You can provide feedback by approving or rejecting Roo Code's proposed actions. You can provide additional feedback by using the feedback field.
+
+Yes, you can customize Roo Code in several ways:
+
+Yes, Roo Code has a few settings that when enabled will automatically approve actions. Find out morehere.
+
+Yes, if you use alocal model.
+
+MCPis a protocol that allows Roo Code to communicate with external servers, extending its capabilities with custom tools and resources.
+
+Yes, you can create your own MCP servers to add custom functionality to Roo Code. See theMCP documentationfor details.
+
+The error message should provide some information about the problem. If you're unsure how to resolve it, seek help in the community forums.
+
+Roo Code uses VS Code's built-in file editing capabilities.  You can use the standard "Undo" command (Ctrl/Cmd + Z) to revert changes. Also, if experimental checkpoints are enabled, Roo can revert changes made to a file.
+
+Please report bugs or suggest features on the Roo CodeIssues pageandFeature Requests page.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- Features
+- Advanced Usage
+- Model Providers
+- FAQFrequently Asked Questions
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Frequently Asked Questions
+
+- 
+- FAQ
+- Frequently Asked Questions
+
+- Read and write files in your project.
+- Execute commands in your VS Code terminal.
+- Perform web browsing (if enabled).
+- Use external tools via the Model Context Protocol (MCP).
+
+- Generating code from natural language descriptions.
+- Refactoring existing code.
+- Fixing bugs.
+- Writing documentation.
+- Explaining code.
+- Answering questions about your codebase.
+- Automating repetitive tasks.
+- Creating new files and projects.
+
+- Roo Code can make mistakes.Always review Roo Code's proposed changes carefully before approving them.
+- Roo Code can execute commands.Be very cautious about allowing Roo Code to run commands, especially if you're using auto-approval.
+- Roo Code can access the internet.If you're using a provider that supports web browsing, be aware that Roo Code could potentially access sensitive information.
+
+- Anthropic (Claude)
+- OpenAI
+- OpenRouter
+- Google Gemini
+- Glama
+- AWS Bedrock
+- GCP Vertex AI
+- Ollama
+- LM Studio
+- DeepSeek
+- Mistral
+- Unbound
+- Requesty
+- VS Code Language Model API
+
+- Code:For general-purpose coding tasks.
+- Architect:For planning and technical leadership.
+- Ask:For answering questions and providing information.
+- Debug:For systematic problem diagnosis.
+You can also createCustom Modes.
+
+- Custom Instructions:Provide general instructions that apply to all modes, or mode-specific instructions.
+- Custom Modes:Create your own modes with tailored prompts and tool permissions.
+- .roorulesFiles:Create.roorulesfiles in your project to provide additional guidelines.
+- Settings:Adjust various settings, such as auto-approval, diff editing, and more.
+
+- Make sure your API key is correct and hasn't expired.
+- Check your internet connection.
+- Check the status of your chosen API provider.
+- Try restarting VS Code.
+- If the problem persists, report the issue onGitHuborDiscord.
+
+- GeneralWhat is Roo Code?How does Roo Code work?What can Roo Code do?Is Roo Code free to use?What are the risks of using Roo Code?
+- Setup & InstallationHow do I install Roo Code?Which API providers are supported?How do I get an API key?Can I use Roo Code with local models?
+- UsageHow do I start a new task?What are modes in Roo Code?How do I switch between modes?What are tools and how do I use them?What are context mentions?Can Roo Code access the internet?Can Roo Code run commands in my terminal?How do I provide feedback to Roo Code?Can I customize Roo Code's behavior?Does Roo Code have any auto approval settings?
+- Advanced FeaturesCan I use Roo offline?What is MCP (Model Context Protocol)?Can I create my own MCP servers?
+- TroubleshootingRoo Code isn't responding. What should I do?I'm seeing an error message. What does it mean?Roo Code made changes I didn't want. How do I undo them?How do I report a bug or suggest a feature?
+
+- What is Roo Code?
+- How does Roo Code work?
+- What can Roo Code do?
+- Is Roo Code free to use?
+- What are the risks of using Roo Code?
+
+- How do I install Roo Code?
+- Which API providers are supported?
+- How do I get an API key?
+- Can I use Roo Code with local models?
+
+- How do I start a new task?
+- What are modes in Roo Code?
+- How do I switch between modes?
+- What are tools and how do I use them?
+- What are context mentions?
+- Can Roo Code access the internet?
+- Can Roo Code run commands in my terminal?
+- How do I provide feedback to Roo Code?
+- Can I customize Roo Code's behavior?
+- Does Roo Code have any auto approval settings?
+
+- Can I use Roo offline?
+- What is MCP (Model Context Protocol)?
+- Can I create my own MCP servers?
+
+- Roo Code isn't responding. What should I do?
+- I'm seeing an error message. What does it mean?
+- Roo Code made changes I didn't want. How do I undo them?
+- How do I report a bug or suggest a feature?
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+CODE EXAMPLES:
+```
+/
+```
+
+```
+@/src/file.ts
+```
+
+```
+@problems
+```
+
+```
+.roorules
+```
+
+```
+.roorules
+```
+
+
+
+==================================================
+PAGE: tutorial-videos
+URL: https://docs.roocode.com/tutorial-videos
+==================================================
+
+TITLE: Tutorial Videos | Roo Code Docs
+
+
+H1 HEADINGS:
+Tutorial Videos
+
+CONTENT:
+Learn how to build powerful applications and enhance your development workflow with these hands-on Roo Code tutorials. Big thanks to all of the creators!
+
+
+LISTS:
+- Welcome
+- Getting Started
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- 
+- Tutorial Videos
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+
+==================================================
+PAGE: community
+URL: https://docs.roocode.com/community
+==================================================
+
+TITLE: Community Projects | Roo Code Docs
+
+
+H1 HEADINGS:
+Community Projects
+
+H2 HEADINGS:
+Memory Bank Project by@GreatScottyMac​
+Roo Flow Project by@GreatScottyMac​
+Roo Code Tips & Tricks by@Michaelzag​
+Roo Code Dynamic Rules by@cannuri​
+Roo Commander Project by@jezweb​
+Custom Modes Gallery​
+Key Enhancements​
+
+H3 HEADINGS:
+Jest Test Engineer by@mrubens​
+VibeMode by@richardwhiteii​
+Documentation Writer by@jsonify​
+User Story Creator by@jsonify​
+Junior Developer Code Reviewer by@jsonify​
+Senior Developer Code Reviewer by@jsonify​
+Orchestrator by@mrubens​
+Orchestrator by@iiwish​
+
+CONTENT:
+Welcome to the Roo Code community section! Here you'll find community projects that extend Roo Code's capabilities and a gallery of custom modes shared by other users to enhance your development workflow.
+
+TheRoo Code Memory Bankproject solves a critical challenge in AI-assisted development:maintaining context across sessions. By providing a structured memory system integrated with VS Code, it ensures your AI assistant maintains a deep understanding of your project across sessions.
+
+Key Features
+
+Check out theMemory Bank project on GitHubto get started!
+
+Building upon the concepts of the Roo Code Memory Bank, theRoo Flowproject enhances AI-assisted development in VS Code by providing persistent project context and optimized mode interactions, resulting in reduced token consumption and a more efficient workflow. RooFlow ensures your AI assistant maintains a deep understanding of your project across sessions, even after interruptions.
+
+Key Improvements over Roo Code Memory Bank:
+
+Roo Flow GitHub Repository
+
+Roo Code Tips & Tricksis a collection of files designed to supercharge your Roo Code experience and maximize productivity. For those looking for a memory management system: check out theHandoff Systemwhich is a simple yet powerful way to maintain optimal LLM performance during extended projects while automatically creating valuable documentation.
+
+Inspired by LangMem, this simple Rule allows you to define new rules and delete them on the fly simply by writingRULE/NORULE: (your new rule)in your message. Roo Code will then add it to or remove it from the.clinerulesfile. This way you can quickly define project specific rules on the fly and build them up step by step. Check outRoo Code Dynamic Ruleson Github.
+
+TheRoo Commanderproject provides a sophisticated collection of custom modes for Roo Code designed to manage software development projects using a structured, multi-agent approach. It introduces a virtual, specialized software development team orchestrated by the👑 Roo Commandermode, leveraging specialized roles and a structured project journal for enhanced context management and workflow organization.
+
+Share and discover custom modes created by the community! Learn how to create and configure custom modes in theCustom Modes documentation. To add your own custom mode to the gallery, create a pull request from the "Edit this page" link below.
+
+A specialized mode for writing and maintaining Jest test suites with TypeScript support. This mode is focused on TDD practices with built-in best practices for test organization, TypeScript-aware test writing, and restricted access to test-related files only.
+
+A mode for transforming natural language descriptions into working code, embracing intuitive and flow-based development.
+
+A mode that is specialized technical documentation expert, with access to read, edit, and command capabilities, focusing on creating clear, maintainable documentation while following best practices and consistent style guidelines.
+
+This mode is an agile requirements specialist with structured templates for creating user stories, following a specific format that includes titles, user roles, goals, benefits, and detailed acceptance criteria, while considering various story types, edge cases, and technical implications.
+
+This mode is a supportive mentor-reviewer who provides educational, encouraging code reviews focused on junior developers' growth, combining positive reinforcement with detailed explanations of best practices, while having read and command access plus restricted edit capabilities for Markdown files only.
+
+This mode is a technical architect who conducts high-level code reviews focused on architectural impact, system scalability, security vulnerabilities, performance optimizations, and long-term maintainability, while having read and command access plus restricted edit capabilities for Markdown files only.
+
+This mode is an orchestrator who gets things done by delegating subtasks to the other modes and reasoning about the results and next steps. It can't write any files aside from being able to create and update custom mode definitions.
+
+An enhanced workflow orchestration mode based on@mrubens' original design, with expanded capabilities for complex task management. This mode acts as a strategic coordinator that breaks down complex projects into well-defined subtasks, delegates them to specialized modes, and manages the overall workflow. It features advanced context management capabilities while maintaining permission restrictions that limit file editing to mode configuration files only.
+
+This orchestrator excels at managing large, complex projects by maintaining clear task boundaries while ensuring cohesive integration of results from different specialized modes.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- CommunityCommunity Projects
+- Update Notes
+
+- Community Projects
+
+- 
+- Community
+- Community Projects
+
+- 🧠Persistent Context: Remembers project details across sessions and maintains consistent understanding of your codebase
+- 🔄Smart Workflows: Mode-based operation with automatic context switching and project-specific customization
+- 📊Knowledge Management: Structured documentation with technical decision tracking and automated progress monitoring
+
+- Reduced Token Consumption:Optimized prompts and instructions minimize token usage.
+- Five Integrated Modes:Architect, Code, Test, Debug, and Ask modes work together seamlessly.
+- Simplified Setup:Easier installation and configuration.
+- Streamlined Real-time Updates:More efficient and targeted Memory Bank updates.
+- Clearer Instructions:Improved YAML-based rule files for better readability and maintainability.
+
+- Granular Task Decomposition: Strategies optimized for context length limitations.
+- Structured Dependency Management: Includes checkpoint validation for task dependencies.
+- Improved Cross-Mode Communication: Enhanced protocols for seamless interaction between modes.
+- Workflow Documentation and Visualization: Tools for architecture documentation and visualization.
+- Context Preservation: Techniques for managing complex multi-stage tasks effectively.
+
+- Memory Bank Project by @GreatScottyMac
+- Roo Flow Project by @GreatScottyMac
+- Roo Code Tips & Tricks by @Michaelzag
+- Roo Code Dynamic Rules by @cannuri
+- Roo Commander Project by @jezweb
+- Custom Modes GalleryJest Test Engineer by @mrubensVibeMode by @richardwhiteiiDocumentation Writer by @jsonifyUser Story Creator by @jsonifyJunior Developer Code Reviewer by @jsonifySenior Developer Code Reviewer by @jsonifyOrchestrator by @mrubensOrchestrator by @iiwish
+- Key Enhancements
+
+- Jest Test Engineer by @mrubens
+- VibeMode by @richardwhiteii
+- Documentation Writer by @jsonify
+- User Story Creator by @jsonify
+- Junior Developer Code Reviewer by @jsonify
+- Senior Developer Code Reviewer by @jsonify
+- Orchestrator by @mrubens
+- Orchestrator by @iiwish
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+CODE EXAMPLES:
+```
+RULE/NORULE: (your new rule)
+```
+
+```
+.clinerules
+```
+
+```
+{"slug":"jest-test-engineer","name":"Jest Test Engineer","roleDefinition":"You are Roo, a Jest testing specialist with deep expertise in:\n- Writing and maintaining Jest test suites\n- Test-driven development (TDD) practices\n- Mocking and stubbing with Jest\n- Integration testing strategies\n- TypeScript testing patterns\n- Code coverage analysis\n- Test performance optimization\n\nYour focus is on maintaining high test quality and coverage across the codebase, working primarily with:\n- Test files in __tests__ directories\n- Mock implementations in __mocks__\n- Test utilities and helpers\n- Jest configuration and setup\n\nYou ensure tests are:\n- Well-structured and maintainable\n- Following Jest best practices\n- Properly typed with TypeScript\n- Providing meaningful coverage\n- Using appropriate mocking strategies","groups":["read","browser","command",["edit",{"fileRegex":"(__tests__/.*|__mocks__/.*|\\.test\\.(ts|tsx|js|jsx)$|/test/.*|jest\\.config\\.(js|ts)$)","description":"Test files, mocks, and Jest configuration"}]],"customInstructions":"When writing tests:\n- Always use describe/it blocks for clear test organization\n- Include meaningful test descriptions\n- Use beforeEach/afterEach for proper test isolation\n- Implement proper error cases\n- Add JSDoc comments for complex test scenarios\n- Ensure mocks are properly typed\n- Verify both positive and negative test cases"}
+```
+
+```
+{"slug":"vibemode","name":"VibeMode","roleDefinition":"You are Roo, a Vibe Coding assistant that transforms natural language descriptions into working code. You embrace the philosophy that coding should be intuitive and flow-based, where developers can 'give in to the vibes' and focus on what they want to build rather than how to build it.\n\nDescription: An AI coding partner focused on natural language programming and vibe-based development with continuous testing\n\nSystem Prompt: You are a Vibe Coding assistant that helps transform natural language descriptions into working code. Focus on understanding intent over technical specifics while ensuring functionality through continuous testing. Embrace experimentation and rapid iteration with built-in validation.\n\nGoals:\n- Transform natural language descriptions into functional code\n- Maintain flow state by handling technical details automatically\n- Suggest improvements while preserving user intent\n- Handle error resolution autonomously when possible\n- Ensure code quality through continuous testing\n- Validate each iteration before proceeding\n\nPrimary Responsibilities:\n\nNatural Language Programming\n- Transform conversational descriptions into functional code\n- Handle technical implementation details automatically\n- Maintain creative flow by managing error resolution autonomously\n- Suggest improvements while preserving user intent\n- Generate appropriate tests for new functionality\n\nWorkflow Optimization\n- Minimize keyboard interaction by supporting voice-to-text input\n- Handle error messages through simple copy-paste resolution\n- Maintain context across development sessions\n- Switch to appropriate specialized modes when needed\n- Run tests automatically after each significant change\n- Provide immediate feedback on test results\n\nTest-Driven Development\n- Create tests before implementing new features\n- Validate changes through automated testing\n- Maintain test coverage throughout development\n- Flag potential issues early in the development cycle\n- Ensure backwards compatibility with existing functionality\n\nPrompt Templates:\n- Initialization: 'I want to create {description}'\n- Refinement: 'Can you modify this to {change}'\n- Error Handling: 'Fix this error: {error}'\n- Iteration: 'Let's improve {aspect}'\n- Test Creation: 'Generate tests for {feature}'\n- Validation: 'Verify the changes to {component}'","groups":["read","edit","browser","command","mcp"],"customInstructions":"Prioritize working solutions over perfect code. Use error messages as learning opportunities. Maintain a conversational, encouraging tone. Suggest improvements without breaking flow. Document key decisions and assumptions. Focus on understanding intent over technical specifics. Embrace experimentation and rapid iteration. Switch to architect mode when structural changes are needed. Switch to ask mode when research is required. Switch to code mode when precise implementation is needed. Maintain context across mode transitions. Handle errors autonomously when possible. Preserve code context and conversation history. Support voice-to-text input through SuperWhisper integration. Generate and run tests for each new feature. Validate all changes through automated testing. Maintain test coverage throughout development. Provide immediate feedback on test results. Flag potential issues early in development cycle. Ensure backwards compatibility."}
+```
+
+```
+{"slug":"documentation-writer","name":"Documentation Writer","roleDefinition":"You are Roo, a technical documentation expert specializing in creating clear, comprehensive documentation for software projects. Your expertise includes:\nWriting clear, concise technical documentation\nCreating and maintaining README files, API documentation, and user guides\nFollowing documentation best practices and style guides\nUnderstanding code to accurately document its functionality\nOrganizing documentation in a logical, easily navigable structure","customInstructions":"Focus on creating documentation that is clear, concise, and follows a consistent style. Use Markdown formatting effectively, and ensure documentation is well-organized and easily maintainable.","groups":["read","edit","command"]}
+```
+
+```
+{"slug":"user-story-creator","name":"User Story Creator","roleDefinition":"You are Roo, an agile requirements specialist focused on creating clear, valuable user stories. Your expertise includes:\n- Crafting well-structured user stories following the standard format\n- Breaking down complex requirements into manageable stories\n- Identifying acceptance criteria and edge cases\n- Ensuring stories deliver business value\n- Maintaining consistent story quality and granularity","customInstructions":"Expected User Story Format:\n\nTitle: [Brief descriptive title]\n\nAs a [specific user role/persona],\nI want to [clear action/goal],\nSo that [tangible benefit/value].\n\nAcceptance Criteria:\n1. [Criterion 1]\n2. [Criterion 2]\n3. [Criterion 3]\n\nStory Types to Consider:\n- Functional Stories (user interactions and features)\n- Non-functional Stories (performance, security, usability)\n- Epic Breakdown Stories (smaller, manageable pieces)\n- Technical Stories (architecture, infrastructure)\n\nEdge Cases and Considerations:\n- Error scenarios\n- Permission levels\n- Data validation\n- Performance requirements\n- Security implications","groups":["read","edit","command"]}
+```
+
+```
+{"slug":"junior-reviewer","name":"Junior Dev Code Reviewer","roleDefinition":"You are Roo, an experienced and supportive code reviewer focused on helping junior developers grow. Your reviews are educational, encouraging, and packed with learning opportunities.\n\nYour core principles are:\n\n1. EDUCATIONAL FOCUS\n- Explain concepts thoroughly with clear examples\n- Link to relevant documentation and learning resources\n- Break down complex issues into digestible pieces\n\n2. POSITIVE REINFORCEMENT\n- Acknowledge good practices and clever solutions\n- Frame feedback as learning opportunities\n- Encourage experimentation while ensuring code quality\n\n3. FUNDAMENTAL BEST PRACTICES\n- Focus on coding standards and common patterns\n- Explain the reasoning behind established practices\n- Introduce design patterns gradually\n\n4. CLEAR EXAMPLES\n- Provide before/after code samples\n- Explain changes step by step\n- Show alternative approaches when relevant\n\n5. STRUCTURED LEARNING\n- Organize feedback by learning objective\n- Build on previous review comments\n- Include exercises and challenges when appropriate","customInstructions":"When reviewing code:\n1. Start with positive observations\n2. Include detailed explanations with each suggestion\n3. Link to relevant documentation\n4. Provide clear, educational code examples\n5. Use a supportive and encouraging tone\n6. Focus on fundamental best practices\n7. Create structured learning opportunities\n8. Always explain the 'why' behind each suggestion","groups":["read",["edit",{"fileRegex":"\\.(md)$","description":"Markdown files for review output"}],"command"]}
+```
+
+```
+{"slug":"senior-reviewer","name":"Senior Dev Code Reviewer","roleDefinition":"You are Roo, a highly experienced technical architect providing strategic code review feedback focused on system-level implications and architectural decisions.\n\nYour core principles are:\n\n1. ARCHITECTURAL IMPACT\n- Evaluate system-wide implications\n- Identify potential scalability bottlenecks\n- Assess technical debt implications\n\n2. PERFORMANCE & SECURITY\n- Focus on critical performance optimizations\n- Identify security vulnerabilities\n- Consider resource utilization\n\n3. EDGE CASES & RELIABILITY\n- Analyze error handling comprehensively\n- Consider edge cases and failure modes\n- Evaluate system resilience\n\n4. STRATEGIC IMPROVEMENTS\n- Suggest architectural refactoring\n- Identify technical debt\n- Consider long-term maintainability\n\n5. TRADE-OFF ANALYSIS\n- Discuss architectural trade-offs\n- Consider alternative approaches\n- Evaluate technical decisions","customInstructions":"When reviewing code:\n1. Focus on architectural and systemic implications\n2. Evaluate performance and scalability concerns\n3. Consider security implications\n4. Analyze error handling and edge cases\n5. Suggest strategic improvements\n6. Discuss technical trade-offs\n7. Be direct and concise\n8. Think about long-term maintainability","groups":["read",["edit",{"fileRegex":"\\.(md)$","description":"Markdown files for review output"}],"command"]}
+```
+
+```
+{"slug":"orchestrator","name":"Orchestrator","roleDefinition":"You are Roo, a strategic workflow orchestrator who coordinates complex tasks by delegating them to appropriate specialized modes. You have a comprehensive understanding of each mode's capabilities and limitations, allowing you to effectively break down complex problems into discrete tasks that can be solved by different specialists.","customInstructions":"Your role is to coordinate complex workflows by delegating tasks to specialized modes. As an orchestrator, you should:\n\n1. When given a complex task, break it down into logical subtasks that can be delegated to appropriate specialized modes.\n\n2. For each subtask, create a new task with a clear, specific instruction using the new_task tool. Choose the most appropriate mode for each task based on its nature and requirements.\n\n3. Track and manage the progress of all subtasks. When a subtask is completed, analyze its results and determine the next steps.\n\n4. Help the user understand how the different subtasks fit together in the overall workflow. Provide clear reasoning about why you're delegating specific tasks to specific modes.\n\n5. When all subtasks are completed, synthesize the results and provide a comprehensive overview of what was accomplished.\n\n6. You can also manage custom modes by editing custom_modes.json and .roomodes files directly. This allows you to create, modify, or delete custom modes as part of your orchestration capabilities.\n\n7. Ask clarifying questions when necessary to better understand how to break down complex tasks effectively.\n\n8. Suggest improvements to the workflow based on the results of completed subtasks.","groups":["read",["edit",{"fileRegex":"\\.roomodes$|cline_custom_modes\\.json$","description":"Mode configuration files only"}]],"source":"global"}
+```
+
+```
+{"slug":"advanced-orchestrator","name":"Advanced Orchestrator","roleDefinition":"You are Roo, a strategic workflow orchestrator who coordinates complex tasks by delegating them to appropriate specialized modes. You have a comprehensive understanding of each mode's capabilities and limitations, allowing you to effectively break down complex problems into discrete tasks that can be solved by different specialists.","customInstructions":"Your role is to coordinate complex workflows by delegating tasks to specialized modes. As an orchestrator, you should:\n\n1. When given a complex task, break it down into logical subtasks that can be delegated to appropriate specialized modes:\n   - Create specific, clearly defined, and scope-limited subtasks\n   - Ensure each subtask fits within context length limitations\n   - Make subtask divisions granular enough to prevent misunderstandings and information loss\n   - Prioritize core functionality implementation over iterative development when task complexity is high\n\n2. For each subtask, create a new task with a clear, specific instruction using the new_task tool:\n   - Choose the most appropriate mode for each task based on its nature and requirements\n   - Provide detailed requirements and summaries of completed work for context\n   - Store all subtask-related content in a dedicated prompt directory\n   - Ensure subtasks focus on their specific stage while maintaining compatibility with other modules\n\n3. Track and manage the progress of all subtasks:\n   - Arrange subtasks in a logical sequence based on dependencies\n   - Establish checkpoints to validate incremental achievements\n   - Reserve adequate context space for complex subtasks\n   - Define clear completion criteria for each subtask\n   - When a subtask is completed, analyze its results and determine the next steps\n\n4. Facilitate effective communication throughout the workflow:\n   - Use clear, natural language for subtask descriptions (avoid code blocks in descriptions)\n   - Provide sufficient context information when initiating each subtask\n   - Keep instructions concise and unambiguous\n   - Clearly label inputs and expected outputs for each subtask\n\n5. Help the user understand how the different subtasks fit together in the overall workflow:\n   - Provide clear reasoning about why you're delegating specific tasks to specific modes\n   - Document the workflow architecture and dependencies between subtasks\n   - Visualize the workflow when helpful for understanding\n\n6. When all subtasks are completed, synthesize the results and provide a comprehensive overview of what was accomplished.\n\n7. You can also manage custom modes by editing custom_modes.json and .roomodes files directly. This allows you to create, modify, or delete custom modes as part of your orchestration capabilities.\n\n8. Ask clarifying questions when necessary to better understand how to break down complex tasks effectively.\n\n9. Suggest improvements to the workflow based on the results of completed subtasks.","groups":["read",["edit",{"fileRegex":"\\.roomodes$|cline_custom_modes\\.json$","description":"Mode configuration files only"}]],"source":"global"}
+```
+
+
+
+==================================================
+PAGE: update-notes
+URL: https://docs.roocode.com/update-notes/
+==================================================
+
+TITLE: Update Notes | Roo Code Docs
+
+
+H1 HEADINGS:
+Update Notes
+
+H2 HEADINGS:
+Version 3.11​
+Version 3.10​
+Version 3.9​
+Version 3.8​
+Version 3.7​
+Version 3.3​
+Version 3.2​
+Version 3.1​
+Version 3.0​
+Version 2.2​
+Version 2.1​
+
+CONTENT:
+This section contains notes about recent updates to Roo Code, listed by version number.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update NotesUpdate Notes3.113.103.93.83.73.33.13.03.22.22.1
+
+- Update Notes
+- 3.11
+- 3.10
+- 3.9
+- 3.8
+- 3.7
+- 3.3
+- 3.1
+- 3.0
+- 3.2
+- 2.2
+- 2.1
+
+- 
+- Update Notes
+- Update Notes
+
+- 3.11.13(2025-04-11)
+- 3.11.12(2025-04-09)
+- 3.11.11(2025-04-09)
+- 3.11.10(2025-04-08)
+- 3.11.9(2025-04-07)
+- 3.11.8(2025-04-05)
+- 3.11.7(2025-04-04)
+- 3.11.6(2025-04-04)
+- 3.11.5(2025-04-03)
+- 3.11.3(2025-03-31)
+- 3.11.2(2025-03-31)
+- 3.11.1(2025-03-30)
+- 3.11.0(2025-03-30)
+
+- 3.10.5(2025-03-25)
+- 3.10.4(2025-03-25)
+- 3.10.3(2025-03-23)
+- 3.10.2(2025-03-21)
+- 3.10.1(2025-03-20)
+- 3.10.0(2025-03-20)
+
+- 3.9.2(2025-03-19)
+- 3.9.1(2025-03-18)
+- 3.9.0(2025-03-18)
+
+- 3.8.6(2025-03-13)
+- 3.8.5(2025-03-12)
+- 3.8.4(2025-03-09)
+- 3.8.3(2025-03-09)
+- 3.8.2(2025-03-08)
+- 3.8.1(2025-03-07)
+- 3.8.0(2025-03-07)
+
+- 3.7.12(2025-03-03)
+- 3.7.11(2025-03-02)
+- 3.7.10(2025-03-01)
+- 3.7.9(2025-03-01)
+- 3.7.8(2025-02-27)
+- 3.7.7(2025-02-27)
+- 3.7.6(2025-02-26)
+- 3.7.5(2025-02-26)
+- 3.7.4(2025-02-25)
+- 3.7.3(2025-02-25)
+- 3.7.2(2025-02-24)
+- 3.7.1(2025-02-24)
+- 3.7.0(2025-02-24)
+
+- 3.3.26(2025-02-27)
+- 3.3.25(2025-02-21)
+- 3.3.24(2025-02-20)
+- 3.3.23(2025-02-20)
+- 3.3.22(2025-02-20)
+- 3.3.21(2025-02-17)
+- 3.3.20(2025-02-14)
+- 3.3.19(2025-02-12)
+- 3.3.18(2025-02-11)
+- 3.3.17(2025-02-09)
+- 3.3.16(2025-02-09)
+- 3.3.15(2025-02-08)
+- 3.3.14
+- 3.3.13
+- 3.3.12
+- 3.3.11
+- 3.3.10
+- 3.3.9
+- 3.3.8
+- 3.3.7
+- 3.3.6
+- 3.3.5
+- 3.3.4
+- 3.3.3
+- 3.3.2
+- 3.3.1
+- 3.3.0
+
+- 3.2.8
+- 3.2.7
+- 3.2.6
+- 3.2.5
+- 3.2.4
+- 3.2.3
+- 3.2.0(Includes 3.2.1, 3.2.2)
+
+- 3.1.7
+- 3.1.6
+- 3.1.4(Includes 3.1.5 fix)
+- 3.1.3
+- 3.1.2
+- 3.1.1
+- 3.1.0
+
+- 3.0.3
+- 3.0.2
+- 3.0.1
+- 3.0.0
+
+- 2.2.46
+- 2.2.45
+- 2.2.44
+- 2.2.43
+- 2.2.42
+- 2.2.41
+- 2.2.40
+- 2.2.39
+- 2.2.38
+- 2.2.36(Includes 2.2.37)
+- 2.2.35
+- 2.2.34
+- 2.2.33
+- 2.2.32
+- 2.2.31
+- 2.2.30
+- 2.2.29
+- 2.2.28
+- 2.2.27
+- 2.2.26
+- 2.2.25
+- 2.2.24
+- 2.2.23
+- 2.2.22
+- 2.2.21
+- 2.2.20
+- 2.2.19
+- 2.2.18
+- 2.2.17
+- 2.2.16
+- 2.2.14(Includes 2.2.15)
+- 2.2.13
+- 2.2.12
+- 2.2.11
+- 2.2.6(Includes 2.2.7-2.2.10)
+- 2.2.5
+- 2.2.4
+- 2.2.3
+- 2.2.2
+- 2.2.1
+- 2.2.0
+
+- 2.1.21
+- 2.1.20
+- 2.1.19
+- 2.1.18
+- 2.1.17
+- 2.1.16
+- 2.1.15
+- 2.1.14
+- 2.1.13
+- 2.1.12
+- 2.1.11
+- 2.1.10
+- 2.1.9
+- 2.1.8
+- 2.1.7
+- 2.1.6
+- 2.1.5
+- 2.1.4
+- 2.1.3
+- 2.1.2
+
+- Version 3.11
+- Version 3.10
+- Version 3.9
+- Version 3.8
+- Version 3.7
+- Version 3.3
+- Version 3.2
+- Version 3.1
+- Version 3.0
+- Version 2.2
+- Version 2.1
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+
+==================================================
+PAGE: getting-started/connecting-api-provider
+URL: https://docs.roocode.com/getting-started/connecting-api-provider
+==================================================
+
+TITLE: Connecting Your First AI Provider | Roo Code Docs
+
+
+H1 HEADINGS:
+Connecting Your First AI Provider
+
+H2 HEADINGS:
+Getting Your API Key​
+Configuring Roo Code in VS Code​
+
+H3 HEADINGS:
+Option 1: LLM Routers​
+Option 2: Direct Providers​
+
+H4 HEADINGS:
+OpenRouter​
+Requesty​
+Anthropic​
+OpenAI​
+
+CONTENT:
+Roo Code requires an API key from an AI model provider to function. We recommend these options for accessing the powerfulClaude 3.7 Sonnetmodel:
+
+LLM routers let you access multiple AI models with one API key, simplifying cost management and switching between models. They often offercompetitive pricingcompared to direct providers.
+
+OpenRouter dashboard with "Create key" button. Name your key and copy it after creation.
+
+Requesty API management page with "Create API Key" button. Copy your key immediately - it's shown only once.
+
+For direct access to specific models from their original providers, with full access to their features and capabilities:
+
+Anthropic console API Keys section with "Create key" button. Name your key, set expiration, and copy it immediately.
+
+OpenAI platform with "Create new secret key" button. Name your key and copy it immediately after creation.
+
+Once you have your API key:
+
+
+LISTS:
+- Welcome
+- Getting StartedInstalling Roo CodeConnecting To A ProviderYour First TaskThe Chat InterfaceTyping Your RequestsHow Tools WorkContext MentionsUsing ModesTips & Tricks
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Installing Roo Code
+- Connecting To A Provider
+- Your First Task
+- The Chat Interface
+- Typing Your Requests
+- How Tools Work
+- Context Mentions
+- Using Modes
+- Tips & Tricks
+
+- 
+- Getting Started
+- Connecting To A Provider
+
+- OpenRouter (Recommended):Provides access to multiple AI models through a single API key. Ideal for getting started quickly with minimal setup.View pricing.
+- Anthropic:Direct access to Claude models. Requires API access approval and may haverate limits depending on your tier. SeeAnthropic's pricing pagefor details.
+
+- ForOpenRouter: selectanthropic/claude-3.7-sonnet(model details)
+- ForAnthropic: selectclaude-3-7-sonnet-20250219(model details)
+
+- Getting Your API KeyOption 1: LLM RoutersOption 2: Direct Providers
+- Configuring Roo Code in VS Code
+
+- Option 1: LLM Routers
+- Option 2: Direct Providers
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Go toopenrouter.ai
+- Sign in with your Google or GitHub account
+- Navigate to theAPI keys pageand create a new key
+- Copy your API key - you'll need this for Roo Code setup
+
+- Go torequesty.ai
+- Sign in with your Google account or email
+- Navigate to theAPI management pageand create a new key
+- Important:Copy your API key immediately as it won't be displayed again
+
+- Go toconsole.anthropic.com
+- Sign up for an account or log in
+- Navigate to theAPI keys sectionand create a new key
+- Important:Copy your API key immediately as it won't be displayed again
+
+- Go toplatform.openai.com
+- Sign up for an account or log in
+- Navigate to theAPI keys sectionand create a new key
+- Important:Copy your API key immediately as it won't be displayed again
+
+- Open the Roo Code sidebar by clicking the Roo Code icon () in the VS Code Activity Bar
+- In the welcome screen, select your API provider from the dropdown
+- Paste your API key into the appropriate field
+- Select your model:ForOpenRouter: selectanthropic/claude-3.7-sonnet(model details)ForAnthropic: selectclaude-3-7-sonnet-20250219(model details)
+- Click "Let's go!" to save your settings and start using Roo Code
+
+
+CODE EXAMPLES:
+```
+anthropic/claude-3.7-sonnet
+```
+
+```
+claude-3-7-sonnet-20250219
+```
+
+
+
+==================================================
+PAGE: getting-started/your-first-task
+URL: https://docs.roocode.com/getting-started/your-first-task
+==================================================
+
+TITLE: Starting Your First Task with Roo Code | Roo Code Docs
+
+
+H1 HEADINGS:
+Starting Your First Task with Roo Code
+
+H2 HEADINGS:
+Step 1: Open the Roo Code Panel​
+Step 2: Type Your Task​
+Step 3: Send Your Task​
+Step 4: Review and Approve Actions​
+Step 5: Iterate​
+Conclusion​
+
+CONTENT:
+Now that you'veconfigured your AI provider and model, you're ready to start using Roo Code! This guide walks you through your first interaction.
+
+Click the Roo Code icon () in the VS Code Activity Bar (vertical bar on the side of the window) to open the chat interface. If you don't see the icon, verify the extension is installed and enabled.
+
+The Roo Code icon in the Activity Bar opens the chat interface.
+
+Type a clear, concise description of what you want Roo Code to do in the chat box at the bottom of the panel. Examples of effective tasks:
+
+No special commands or syntax needed—just use plain English.
+
+Enter your task in natural language - no special syntax required.
+
+Press Enter or click the Send icon () to the right of the input box.
+
+Roo Code analyzes your request and proposes specific actions. These may include:
+
+Roo Code shows exactly what action it wants to perform and waits for your approval.
+
+Each action requires your explicit approval(unless auto-approval is enabled):
+
+Roo Code works iteratively. After each action, it waits for your feedback before proposing the next step. Continue this review-approve cycle until your task is complete.
+
+After completing the task, Roo Code shows the final result and awaits your next instruction.
+
+You've now completed your first task with Roo Code! Through this process, you've learned:
+
+This iterative, approval-based workflow is at the core of how Roo Code works—letting AI handle the tedious parts of coding while you maintain complete oversight. Now that you understand the basics, you're ready to tackle more complex tasks, explore differentmodesfor specialized workflows, or try theauto-approval featureto speed up repetitive tasks.
+
+
+LISTS:
+- Welcome
+- Getting StartedInstalling Roo CodeConnecting To A ProviderYour First TaskThe Chat InterfaceTyping Your RequestsHow Tools WorkContext MentionsUsing ModesTips & Tricks
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Installing Roo Code
+- Connecting To A Provider
+- Your First Task
+- The Chat Interface
+- Typing Your Requests
+- How Tools Work
+- Context Mentions
+- Using Modes
+- Tips & Tricks
+
+- 
+- Getting Started
+- Your First Task
+
+- "Create a file namedhello.txtcontaining 'Hello, world!'."
+- "Write a Python function that adds two numbers."
+- "Create an HTML file for a simple website with the title 'Roo test'"
+
+- Reading files:Shows file contents it needs to access
+- Writing to files:Displays a diff with proposed changes (added lines in green, removed in red)
+- Executing commands:Shows the exact command to run in your terminal
+- Using the Browser:Outlines browser actions (click, type, etc.)
+- Asking questions:Requests clarification when needed to proceed
+
+- Approve:Click the "Approve" button to execute the proposed action
+- Reject:Click the "Reject" button and provide feedback if needed
+
+- How to interact with Roo Code using natural language
+- The approval-based workflow that keeps you in control
+- The iterative approach Roo Code uses to solve problems step-by-step
+
+- Step 1: Open the Roo Code Panel
+- Step 2: Type Your Task
+- Step 3: Send Your Task
+- Step 4: Review and Approve Actions
+- Step 5: Iterate
+- Conclusion
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+CODE EXAMPLES:
+```
+hello.txt
+```
+
+
+
+==================================================
+PAGE: basic-usage/using-modes
+URL: https://docs.roocode.com/basic-usage/using-modes
+==================================================
+
+TITLE: Using Modes | Roo Code Docs
+
+
+H1 HEADINGS:
+Using Modes
+
+H2 HEADINGS:
+Why Use Different Modes?​
+Switching Between Modes​
+Built-in Modes​
+Custom Modes​
+
+H3 HEADINGS:
+Code Mode (Default)​
+Ask Mode​
+Architect Mode​
+Debug Mode​
+
+CONTENT:
+Modes in Roo Code are specialized personas that tailor the assistant's behavior to your current task. Each mode offers different capabilities, expertise, and access levels to help you accomplish specific goals.
+
+Each mode remembers the last model you used with it. When switching modes, Roo automatically selects the model you previously set for that mode—allowing you to maintain different preferred models for different types of tasks without manual reconfiguration.
+
+Four ways to switch modes:
+
+Dropdown menu:Click the selector to the left of the chat input
+
+Slash command:Type/architect,/ask,/debug, or/codein the chat input
+
+Toggle command/Keyboard shortcut:Use the keyboard shortcut below, applicable to your operating system. Each press cycles through the available modes in sequence, wrapping back to the first mode after reaching the end.
+
+Accept suggestions:Click on mode switch suggestions that Roo offers when appropriate
+
+Create your own specialized assistants by defining tool access, file permissions, and behavior instructions. Custom modes help enforce team standards or create purpose-specific assistants. SeeCustom Modes documentationfor setup instructions.
+
+
+LISTS:
+- Welcome
+- Getting StartedInstalling Roo CodeConnecting To A ProviderYour First TaskThe Chat InterfaceTyping Your RequestsHow Tools WorkContext MentionsUsing ModesTips & Tricks
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Installing Roo Code
+- Connecting To A Provider
+- Your First Task
+- The Chat Interface
+- Typing Your Requests
+- How Tools Work
+- Context Mentions
+- Using Modes
+- Tips & Tricks
+
+- 
+- Getting Started
+- Using Modes
+
+- Task specialization:Get precisely the type of assistance you need for your current task
+- Safety controls:Prevent unintended file modifications when focusing on planning or learning
+- Focused interactions:Receive responses optimized for your current activity
+- Workflow optimization:Seamlessly transition between planning, implementing, debugging, and learning
+
+- Why Use Different Modes?
+- Switching Between Modes
+- Built-in ModesCode Mode (Default)Ask ModeArchitect ModeDebug Mode
+- Custom Modes
+
+- Code Mode (Default)
+- Ask Mode
+- Architect Mode
+- Debug Mode
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Dropdown menu:Click the selector to the left of the chat input
+- Slash command:Type/architect,/ask,/debug, or/codein the chat input
+- Toggle command/Keyboard shortcut:Use the keyboard shortcut below, applicable to your operating system. Each press cycles through the available modes in sequence, wrapping back to the first mode after reaching the end.Operating SystemShortcutmacOS⌘ + .WindowsCtrl + .LinuxCtrl + .
+- Accept suggestions:Click on mode switch suggestions that Roo offers when appropriate
+
+
+CODE EXAMPLES:
+```
+/architect
+```
+
+```
+/ask
+```
+
+```
+/debug
+```
+
+```
+/code
+```
+
+```
+read
+```
+
+```
+edit
+```
+
+```
+browser
+```
+
+```
+command
+```
+
+```
+mcp
+```
+
+```
+read
+```
+
+```
+browser
+```
+
+```
+mcp
+```
+
+```
+read
+```
+
+```
+browser
+```
+
+```
+mcp
+```
+
+```
+edit
+```
+
+```
+read
+```
+
+```
+edit
+```
+
+```
+browser
+```
+
+```
+command
+```
+
+```
+mcp
+```
+
+
+
+==================================================
+PAGE: features/custom-modes
+URL: https://docs.roocode.com/features/custom-modes
+==================================================
+
+TITLE: Custom Modes | Roo Code Docs
+
+
+H1 HEADINGS:
+Custom Modes
+
+H2 HEADINGS:
+Why Use Custom Modes?​
+What's Included in a Custom Mode?​
+Custom Mode Configuration (JSON Format)​
+Configuration Precedence​
+Creating Custom Modes​
+Example Configurations​
+Understanding Regex in Custom Modes​
+Community Gallery​
+
+H3 HEADINGS:
+Required Properties​
+Understanding File Restrictions​
+Optional Properties​
+Mode-Specific Instructions via Files/Directories​
+1. Ask Roo! (Recommended)​
+2. Using the Prompts Tab​
+3. Manual Configuration​
+Basic Documentation Writer​
+Test Engineer with File Restrictions​
+Project-Specific Mode Override​
+Basic Syntax​
+Important Rules​
+Common Pattern Examples​
+Pattern Building Blocks​
+Testing Your Patterns​
+Let Roo Build Your Regex Patterns​
+
+H4 HEADINGS:
+slug​
+name​
+roleDefinition​
+groups​
+customInstructions​
+Custom Mode Creation Settings​
+
+CONTENT:
+Roo Code allows you to createcustom modesto tailor Roo's behavior to specific tasks or workflows. Custom modes can be eitherglobal(available across all projects) orproject-specific(defined within a single project). Each mode—including custom ones—remembers the last model you used with it, automatically selecting that model when you switch to the mode. This lets you maintain different preferred models for different types of tasks without manual reconfiguration.
+
+You can provide instructions for custom modes using dedicated files or directories within your workspace. This allows for better organization and version control compared to only using the JSONcustomInstructionsproperty.
+
+Preferred Method: Directory (.roo/rules-{mode-slug}/)
+
+Fallback Method: Single File (.roorules-{mode-slug})
+
+The directory method takes precedence if it exists and contains files. SeeMode-Specific Instructions via Files/Directoriesfor details.
+
+Specialization:Create modes optimized for specific tasks, like "Documentation Writer," "Test Engineer," or "Refactoring Expert"
+
+Safety:Restrict a mode's access to sensitive files or commands. For example, a "Review Mode" could be limited to read-only operations
+
+Experimentation:Safely experiment with different prompts and configurations without affecting other modes
+
+Team Collaboration:Share custom modes with your team to standardize workflows
+
+Roo Code's interface for creating and managing custom modes.
+
+Custom modes allow you to define:
+
+Both global and project-specific configurations use the same JSON format. Each configuration file contains acustomModesarray of mode definitions:
+
+ThefileRegexproperty uses regular expressions to control which files a mode can edit:
+
+Common regex patterns:
+
+Learn more about regular expressions
+
+In addition to thecustomInstructionsproperty in JSON, you can provide mode-specific instructions via files in your workspace. This is particularly useful for:
+
+There are two ways Roo Code loads these instructions, with a clear preference for the newer directory-based method:
+
+1. Preferred Method: Directory-Based Instructions (.roo/rules-{mode-slug}/)
+
+2. Fallback (Backward Compatibility): File-Based Instructions (.roorules-{mode-slug})
+
+Precedence:
+
+Combining with JSONcustomInstructions:
+
+Mode configurations are applied in this order:
+
+This means that project-specific configurations will override global configurations, which in turn override default configurations.
+
+You have three options for creating custom modes:
+
+You can quickly create a basic custom mode by asking Roo Code to do it for you. For example:
+
+Roo Code will guide you through the process. However, for fine-tuning modes or making specific adjustments, you'll want to use the Prompts tab or manual configuration methods described below.
+
+When enabled, Roo allows you to create custom modes using prompts like 'Make me a custom mode that...'. Disabling this reduces your system prompt by about 700 tokens when this feature isn't needed. When disabled you can still manually create custom modes using the + button above or by editing the related config JSON.
+
+You can find this setting within the prompt settings by clicking theicon in the Roo Code top menu bar.
+
+Open Prompts Tab:Click theicon in the Roo Code top menu bar
+
+Create New Mode:Click thebutton to the right of the Modes heading
+
+Fill in Fields:
+
+The custom mode creation interface showing fields for name, slug, save location, role definition, available tools, and custom instructions.
+
+Create Mode:Click the "Create Mode" button to save your new mode
+
+Note: File type restrictions can only be added through manual configuration.
+
+You can configure custom modes by editing JSON files through the Prompts tab:
+
+Both global and project-specific configurations can be edited through the Prompts tab:
+
+Each example shows different aspects of mode configuration:
+
+By following these instructions, you can create and manage custom modes to enhance your workflow with Roo-Code.
+
+Regex patterns in custom modes let you precisely control which files Roo can edit:
+
+When you specifyfileRegexin a custom mode, you're creating a pattern that file paths must match:
+
+Before applying a regex pattern to a custom mode:
+
+Instead of writing complex regex patterns manually, you can ask Roo to create them for you! Simply describe which files you want to include or exclude:
+
+Roo will generate the appropriate pattern with proper escaping for JSON configuration.
+
+Ready to explore more? Check out theCustom Modes Galleryto discover and share custom modes created by the community!
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Custom Modes
+
+- Specialization:Create modes optimized for specific tasks, like "Documentation Writer," "Test Engineer," or "Refactoring Expert"
+- Safety:Restrict a mode's access to sensitive files or commands. For example, a "Review Mode" could be limited to read-only operations
+- Experimentation:Safely experiment with different prompts and configurations without affecting other modes
+- Team Collaboration:Share custom modes with your team to standardize workflowsRoo Code's interface for creating and managing custom modes.
+
+- A unique name and slug:For easy identification
+- A role definition:Placed at the beginning of the system prompt, this defines Roo's core expertise and personality for the mode. This placement is crucial as it shapes Roo's fundamental understanding and approach to tasks
+- Custom instructions:Added near the end of the system prompt, these provide specific guidelines that modify or refine Roo's behavior for the mode. You can define these using thecustomInstructionsJSON property, and/or by adding instruction files to a dedicated directory (see below). The preferred method for file-based instructions is now using a.roo/rules-{mode-slug}/directory, which allows for better organization and takes precedence over the older.roorules-{mode-slug}file method. This structured placement allows for more nuanced control over Roo's responses.
+- Allowed tools:Which Roo Code tools the mode can use (e.g., read files, write files, execute commands)
+- File restrictions:(Optional) Limit file access to specific file types or patterns (e.g., only allow editing.mdfiles)
+
+- A unique identifier for the mode
+- Use lowercase letters, numbers, and hyphens
+- Keep it short and descriptive
+- Example:"docs-writer","test-engineer"
+
+- The display name shown in the UI
+- Can include spaces and proper capitalization
+- Example:"Documentation Writer","Test Engineer"
+
+- Detailed description of the mode's role and capabilities
+- Defines Roo's expertise and personality for this mode
+- Example:"You are a technical writer specializing in clear documentation"
+
+- Array of allowed tool groups
+- Available groups:"read","edit","browser","command","mcp"
+- Can include file restrictions for the"edit"group
+
+- \\.md$- Match files ending in ".md"
+- \\.(test|spec)\\.(js|ts)$- Match test files (e.g., "component.test.js")
+- \\.(js|ts)$- Match JavaScript and TypeScript files
+
+- \\.- Match a literal dot
+- (a|b)- Match either "a" or "b"
+- $- Match the end of the filename
+
+- Additional behavioral guidelines for the mode
+- Example:"Focus on explaining concepts and providing examples"
+
+- Organizing lengthy or complex instructions into multiple, manageable files.
+- Managing instructions easily with version control.
+- Allowing non-technical team members to modify instructions without editing JSON.
+
+- Structure:Create a directory named.roo/rules-{mode-slug}/in your workspace root. Replace{mode-slug}with your mode's slug (e.g.,.roo/rules-docs-writer/).
+- Content:Place one or more files (e.g.,.md,.txt) containing your instructions inside this directory. You can organize instructions further using subdirectories; Roo Code reads files recursively, appending their content to the system prompt inalphabetical orderbased on filename.
+- Loading:All instruction files found within this directory structure will be loaded and applied to the specified mode.
+
+- Structure:If the.roo/rules-{mode-slug}/directorydoes not exist or is empty, Roo Code will look for a single file named.roorules-{mode-slug}in your workspace root (e.g.,.roorules-docs-writer).
+- Loading:If found, the content of this single file will be loaded as instructions for the mode.
+
+- Thedirectory-based method (.roo/rules-{mode-slug}/) takes precedence. If this directory exists and contains files, any corresponding root-level.roorules-{mode-slug}file will beignoredfor that mode.
+- This ensures that projects migrated to the new directory structure behave predictably, while older projects using the single-file method remain compatible.
+
+- Instructions loaded from either the directory or the fallback file are combined with thecustomInstructionsproperty defined in the mode's JSON configuration.
+- Typically, the content from the files/directories is appended after the content from the JSONcustomInstructionsproperty.
+
+- Note on Instruction Files:Within the loading of mode-specific instructions from the filesystem, the directory.roo/rules-{mode-slug}/takes precedence over the single file.roorules-{mode-slug}found in the workspace root.
+
+- Name:Enter a display name for the mode
+- Slug:Enter a lowercase identifier (letters, numbers, and hyphens only)
+- Save Location:Choose Global (viacustom_modes.json, available across all workspaces) or Project-specific (via.roomodesfile in project root)
+- Role Definition:Define Roo's expertise and personality for this mode (appears at the start of the system prompt)
+- Available Tools:Select which tools this mode can use
+- Custom Instructions:(Optional) Add behavioral guidelines specific to this mode (appears at the end of the system prompt)
+
+- Select "Edit Global Modes" to editcustom_modes.json(available across all workspaces)
+- Select "Edit Project Modes" to edit.roomodesfile (in project root)
+
+- Double Backslashes:In JSON, backslashes must be escaped with another backslash. So\.md$becomes\\.md$
+- Path Matching:Patterns match against the full file path, not just the filename
+- Case Sensitivity:Regex patterns are case-sensitive by default
+
+- \\.- Match a literal dot (period)
+- $- Match the end of the string
+- ^- Match the beginning of the string
+- .*- Match any character (except newline) zero or more times
+- (a|b)- Match either "a" or "b"
+- (?!...)- Negative lookahead (exclude matches)
+
+- Why Use Custom Modes?
+- What's Included in a Custom Mode?
+- Custom Mode Configuration (JSON Format)Required PropertiesUnderstanding File RestrictionsOptional PropertiesMode-Specific Instructions via Files/Directories
+- Configuration Precedence
+- Creating Custom Modes1. Ask Roo! (Recommended)2. Using the Prompts Tab3. Manual Configuration
+- Example ConfigurationsBasic Documentation WriterTest Engineer with File RestrictionsProject-Specific Mode Override
+- Understanding Regex in Custom ModesBasic SyntaxImportant RulesCommon Pattern ExamplesPattern Building BlocksTesting Your PatternsLet Roo Build Your Regex Patterns
+- Community Gallery
+
+- Required Properties
+- Understanding File Restrictions
+- Optional Properties
+- Mode-Specific Instructions via Files/Directories
+
+- 1. Ask Roo! (Recommended)
+- 2. Using the Prompts Tab
+- 3. Manual Configuration
+
+- Basic Documentation Writer
+- Test Engineer with File Restrictions
+- Project-Specific Mode Override
+
+- Basic Syntax
+- Important Rules
+- Common Pattern Examples
+- Pattern Building Blocks
+- Testing Your Patterns
+- Let Roo Build Your Regex Patterns
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Project-level mode configurations (from.roomodes)
+- Global mode configurations (fromcustom_modes.json)
+- Default mode configurations
+
+- Open Prompts Tab:Click theicon in the Roo Code top menu bar
+- Create New Mode:Click thebutton to the right of the Modes heading
+- Fill in Fields:The custom mode creation interface showing fields for name, slug, save location, role definition, available tools, and custom instructions.Name:Enter a display name for the modeSlug:Enter a lowercase identifier (letters, numbers, and hyphens only)Save Location:Choose Global (viacustom_modes.json, available across all workspaces) or Project-specific (via.roomodesfile in project root)Role Definition:Define Roo's expertise and personality for this mode (appears at the start of the system prompt)Available Tools:Select which tools this mode can useCustom Instructions:(Optional) Add behavioral guidelines specific to this mode (appears at the end of the system prompt)
+- Create Mode:Click the "Create Mode" button to save your new mode
+
+- Open Prompts Tab:Click theicon in the Roo Code top menu bar
+- Access Settings Menu:Click thebutton to the right of the Modes heading
+- Choose Configuration:Select "Edit Global Modes" to editcustom_modes.json(available across all workspaces)Select "Edit Project Modes" to edit.roomodesfile (in project root)
+- Edit Configuration:Modify the JSON file that opens
+- Save Changes:Roo Code will automatically detect the changes
+
+- Test it on sample file paths to ensure it matches what you expect
+- Remember that in JSON, each backslash needs to be doubled (\dbecomes\\d)
+- Start with simpler patterns and build complexity gradually
+
+
+CODE EXAMPLES:
+```
+customInstructions
+```
+
+```
+.roo/rules-{mode-slug}/
+```
+
+```
+.├── .roo/│   └── rules-docs-writer/  # Example for mode slug "docs-writer"│       ├── 01-style-guide.md│       └── 02-formatting.txt└── ... (other project files)
+```
+
+```
+.roorules-{mode-slug}
+```
+
+```
+.├── .roorules-docs-writer  # Example for mode slug "docs-writer"└── ... (other project files)
+```
+
+```
+customInstructions
+```
+
+```
+.roo/rules-{mode-slug}/
+```
+
+```
+.roorules-{mode-slug}
+```
+
+```
+.md
+```
+
+```
+customModes
+```
+
+```
+{"customModes":[{"slug":"mode-name","name":"Mode Display Name","roleDefinition":"Mode's role and capabilities","groups":["read","edit"],"customInstructions":"Additional guidelines"}]}
+```
+
+```
+slug
+```
+
+```
+"docs-writer"
+```
+
+```
+"test-engineer"
+```
+
+```
+name
+```
+
+```
+"Documentation Writer"
+```
+
+```
+"Test Engineer"
+```
+
+```
+roleDefinition
+```
+
+```
+"You are a technical writer specializing in clear documentation"
+```
+
+```
+groups
+```
+
+```
+"read"
+```
+
+```
+"edit"
+```
+
+```
+"browser"
+```
+
+```
+"command"
+```
+
+```
+"mcp"
+```
+
+```
+"edit"
+```
+
+```
+["edit",{"fileRegex":"\\.md$","description":"Markdown files only"}]
+```
+
+```
+fileRegex
+```
+
+```
+\\.md$
+```
+
+```
+\\.(test|spec)\\.(js|ts)$
+```
+
+```
+\\.(js|ts)$
+```
+
+```
+\\.
+```
+
+```
+(a|b)
+```
+
+```
+$
+```
+
+```
+customInstructions
+```
+
+```
+"Focus on explaining concepts and providing examples"
+```
+
+```
+customInstructions
+```
+
+```
+.roo/rules-{mode-slug}/
+```
+
+```
+.roo/rules-{mode-slug}/
+```
+
+```
+{mode-slug}
+```
+
+```
+.roo/rules-docs-writer/
+```
+
+```
+.md
+```
+
+```
+.txt
+```
+
+```
+.roorules-{mode-slug}
+```
+
+```
+.roo/rules-{mode-slug}/
+```
+
+```
+.roorules-{mode-slug}
+```
+
+```
+.roorules-docs-writer
+```
+
+```
+.roo/rules-{mode-slug}/
+```
+
+```
+.roorules-{mode-slug}
+```
+
+```
+customInstructions
+```
+
+```
+customInstructions
+```
+
+```
+customInstructions
+```
+
+```
+.roomodes
+```
+
+```
+custom_modes.json
+```
+
+```
+.roo/rules-{mode-slug}/
+```
+
+```
+.roorules-{mode-slug}
+```
+
+```
+Create a new mode called "Documentation Writer". It should only be able to read files and write Markdown files.
+```
+
+```
+custom_modes.json
+```
+
+```
+.roomodes
+```
+
+```
+custom_modes.json
+```
+
+```
+.roomodes
+```
+
+```
+{"customModes":[{"slug":"docs-writer","name":"Documentation Writer","roleDefinition":"You are a technical writer specializing in clear documentation","groups":["read",["edit",{"fileRegex":"\\.md$","description":"Markdown files only"}]],"customInstructions":"Focus on clear explanations and examples"}]}
+```
+
+```
+{"customModes":[{"slug":"test-engineer","name":"Test Engineer","roleDefinition":"You are a test engineer focused on code quality","groups":["read",["edit",{"fileRegex":"\\.(test|spec)\\.(js|ts)$","description":"Test files only"}]]}]}
+```
+
+```
+{"customModes":[{"slug":"code","name":"Code (Project-Specific)","roleDefinition":"You are a software engineer with project-specific constraints","groups":["read",["edit",{"fileRegex":"\\.(js|ts)$","description":"JS/TS files only"}]],"customInstructions":"Focus on project-specific JS/TS development"}]}
+```
+
+```
+fileRegex
+```
+
+```
+["edit",{"fileRegex":"\\.md$","description":"Markdown files only"}]
+```
+
+```
+\.md$
+```
+
+```
+\\.md$
+```
+
+```
+\\.md$
+```
+
+```
+readme.md
+```
+
+```
+docs/guide.md
+```
+
+```
+script.js
+```
+
+```
+readme.md.bak
+```
+
+```
+^src/.*
+```
+
+```
+src/app.js
+```
+
+```
+src/components/button.tsx
+```
+
+```
+lib/utils.js
+```
+
+```
+test/src/mock.js
+```
+
+```
+\\.(css|scss)$
+```
+
+```
+styles.css
+```
+
+```
+theme.scss
+```
+
+```
+styles.less
+```
+
+```
+styles.css.map
+```
+
+```
+docs/.*\\.md$
+```
+
+```
+docs/guide.md
+```
+
+```
+docs/api/reference.md
+```
+
+```
+guide.md
+```
+
+```
+src/docs/notes.md
+```
+
+```
+^(?!.*(test|spec)).*\\.js$
+```
+
+```
+app.js
+```
+
+```
+utils.js
+```
+
+```
+app.test.js
+```
+
+```
+utils.spec.js
+```
+
+```
+\\.
+```
+
+```
+$
+```
+
+```
+^
+```
+
+```
+.*
+```
+
+```
+(a|b)
+```
+
+```
+(?!...)
+```
+
+```
+\d
+```
+
+```
+\\d
+```
+
+```
+Create a regex pattern that matches JavaScript files but excludes test files
+```
+
+
+
+==================================================
+PAGE: basic-usage/how-tools-work
+URL: https://docs.roocode.com/basic-usage/how-tools-work
+==================================================
+
+TITLE: How Tools Work | Roo Code Docs
+
+
+H1 HEADINGS:
+How Tools Work
+
+H2 HEADINGS:
+Tool Workflow​
+Tool Categories​
+Example: Using Tools​
+Tool Safety and Approval​
+Core Tools Reference​
+Learn More About Tools​
+
+CONTENT:
+Roo Code uses tools to interact with your code and environment. These specialized helpers perform specific actions like reading files, making edits, running commands, or searching your codebase. Tools provide automation for common development tasks without requiring manual execution.
+
+Describe what you want to accomplish in natural language, and Roo Code will:
+
+Here's how a typical tool interaction works:
+
+The tool approval interface shows Save/Reject buttons and Auto-approve options.
+
+User:Create a file namedgreeting.jsthat logs a greeting message
+
+Roo Code:(Proposes thewrite_to_filetool as shown in the image above)
+
+User:(Clicks "Save" in the interface)
+
+Roo Code:(Confirms file creation)
+
+Every tool use requires your explicit approval. When Roo proposes a tool, you'll see:
+
+This safety mechanism ensures you maintain control over which files are modified, what commands are executed, and how your codebase is changed. Always review tool proposals carefully before saving them.
+
+For more detailed information about each tool, including complete parameter references and advanced usage patterns, see theTool Use Overviewdocumentation.
+
+
+LISTS:
+- Welcome
+- Getting StartedInstalling Roo CodeConnecting To A ProviderYour First TaskThe Chat InterfaceTyping Your RequestsHow Tools WorkContext MentionsUsing ModesTips & Tricks
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Installing Roo Code
+- Connecting To A Provider
+- Your First Task
+- The Chat Interface
+- Typing Your Requests
+- How Tools Work
+- Context Mentions
+- Using Modes
+- Tips & Tricks
+
+- 
+- Getting Started
+- How Tools Work
+
+- A "Save" button to approve and execute the tool
+- A "Reject" button to decline the proposed tool
+- An optional "Auto-approve" setting for trusted operations
+
+- Tool Workflow
+- Tool Categories
+- Example: Using Tools
+- Tool Safety and Approval
+- Core Tools Reference
+- Learn More About Tools
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Select the appropriate tool based on your request
+- Present the tool with its parameters for your review
+- Execute the approved tool and show you the results
+- Continue this process until your task is complete
+
+
+CODE EXAMPLES:
+```
+read_file
+```
+
+```
+search_files
+```
+
+```
+list_files
+```
+
+```
+list_code_definition_names
+```
+
+```
+write_to_file
+```
+
+```
+apply_diff
+```
+
+```
+execute_command
+```
+
+```
+browser_action
+```
+
+```
+ask_followup_question
+```
+
+```
+attempt_completion
+```
+
+```
+switch_mode
+```
+
+```
+new_task
+```
+
+```
+greeting.js
+```
+
+```
+write_to_file
+```
+
+```
+<write_to_file><path>greeting.js</path><content>function greet(name) {console.log(`Hello, ${name}!`);}greet('World');</content><line_count>5</line_count></write_to_file>
+```
+
+```
+read_file
+```
+
+```
+search_files
+```
+
+```
+list_files
+```
+
+```
+list_code_definition_names
+```
+
+```
+write_to_file
+```
+
+```
+apply_diff
+```
+
+```
+execute_command
+```
+
+```
+browser_action
+```
+
+```
+ask_followup_question
+```
+
+```
+attempt_completion
+```
+
+```
+switch_mode
+```
+
+```
+new_task
+```
+
+
+
+==================================================
+PAGE: features/mcp/overview
+URL: https://docs.roocode.com/features/mcp/overview
+==================================================
+
+TITLE: MCP Overview | Roo Code Docs
+
+
+H1 HEADINGS:
+Model Context Protocol (MCP)
+
+H2 HEADINGS:
+MCP Documentation​
+
+CONTENT:
+The Model Context Protocol (MCP) is a standard for extending Roo Code's capabilities by connecting to external tools and services. MCP servers provide additional tools and resources that help Roo accomplish tasks beyond its built-in capabilities, such as accessing databases, custom APIs, and specialized functionality.
+
+This documentation is organized into several sections:
+
+Using MCP in Roo Code- Comprehensive guide to configuring, enabling, and managing MCP servers with Roo Code. Includes server settings, tool approval, and troubleshooting.
+
+What is MCP?- Clear explanation of the Model Context Protocol, its client-server architecture, and how it enables AI systems to interact with external tools.
+
+STDIO & SSE Transports- Detailed comparison of local (STDIO) and remote (SSE) transport mechanisms with deployment considerations for each approach.
+
+MCP vs API- Analysis of the fundamental distinction between MCP and REST APIs, explaining how they operate at different layers of abstraction for AI systems.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPMCP OverviewUsing MCP in Roo CodeWhat is MCP?STDIO & SSE TransportsMCP vs APIExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCPMCP OverviewUsing MCP in Roo CodeWhat is MCP?STDIO & SSE TransportsMCP vs API
+- Experimental
+- Additional Features
+
+- MCP Overview
+- Using MCP in Roo Code
+- What is MCP?
+- STDIO & SSE Transports
+- MCP vs API
+
+- 
+- Features
+- MCP
+- MCP Overview
+
+- Using MCP in Roo Code- Comprehensive guide to configuring, enabling, and managing MCP servers with Roo Code. Includes server settings, tool approval, and troubleshooting.
+- What is MCP?- Clear explanation of the Model Context Protocol, its client-server architecture, and how it enables AI systems to interact with external tools.
+- STDIO & SSE Transports- Detailed comparison of local (STDIO) and remote (SSE) transport mechanisms with deployment considerations for each approach.
+- MCP vs API- Analysis of the fundamental distinction between MCP and REST APIs, explaining how they operate at different layers of abstraction for AI systems.
+
+- MCP Documentation
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+
+==================================================
+PAGE: features/custom-instructions
+URL: https://docs.roocode.com/features/custom-instructions
+==================================================
+
+TITLE: Custom Instructions | Roo Code Docs
+
+
+H1 HEADINGS:
+Custom Instructions
+
+H2 HEADINGS:
+What Are Custom Instructions?​
+Setting Custom Instructions​
+How Instructions are Combined​
+Rules about .rules files​
+Examples of Custom Instructions​
+Combining with Custom Modes​
+
+H3 HEADINGS:
+Global Custom Instructions​
+Workspace-Level Instructions​
+
+H4 HEADINGS:
+Workspace-Wide Instructions via Files/Directories​
+Mode-Specific Instructions​
+
+CONTENT:
+Custom Instructions allow you to personalize how Roo behaves, providing specific guidance that shapes responses, coding style, and decision-making processes.
+
+You can provide custom instructions using dedicated files or directories within your workspace. This allows for better organization and version control.
+
+Workspace-Wide Instructions:Apply to all modes in the project.
+
+Mode-Specific Instructions:Apply only to a specific mode (e.g.,code).
+
+The directory methods take precedence if they exist and contain files. SeeWorkspace-Level InstructionsandMode-Specific Instructionsfor details.
+
+Custom Instructions define specific behaviors, preferences, and constraints beyond Roo's basic role definition. Examples include coding style, documentation standards, testing requirements, and workflow guidelines.
+
+These instructions apply across all workspaces and maintain your preferences regardless of which project you're working on.
+
+How to set them:
+
+These instructions only apply within your current workspace, allowing you to customize Roo Code's behavior for specific projects.
+
+Workspace-wide instructions apply to all modes within the current project and can be defined using files:
+
+Mode-specific instructions can be set in two independent ways that can be used simultaneously:
+
+Using the Prompts Tab:
+
+Open Tab:Click theicon in the Roo Code top menu bar
+
+Select Mode:Under the Modes heading, click the button for the mode you want to customize
+
+Enter Instructions:Enter your instructions in the text area under "Mode-specific Custom Instructions (optional)"
+
+Save Changes:Click "Done" to save your changes
+
+If the mode itself is global (not workspace-specific), any custom instructions you set for it will also apply globally for that mode across all workspaces.
+
+Using Rule Files/Directories:Provide mode-specific instructions via files:
+
+Instructions from the Prompts tab, the mode-specific directory/file, and the workspace-wide directory/file are all combined. See the section below for the exact order.
+
+Instructions are placed in the system prompt in this exact format:
+
+Note: The exact order ensures that more specific instructions (mode-level) appear before more general ones (workspace-wide), and directory-based rules take precedence over file-based fallbacks within each level.
+
+When working in team environments, using the.roo/rules/directory structure (and potentially.roo/rules-{modeSlug}/directories for specific modes) under version control is the recommended way to standardize Roo's behavior across your team. This allows for better organization of multiple instruction files and ensures consistent code style, documentation practices, and development workflows. The older.roorulesfile method can still be used but offers less flexibility.
+
+For advanced customization, combine withCustom Modesto create specialized environments with specific tool access, file restrictions, and tailored instructions.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Custom Instructions
+
+- Preferred Method: Directory (.roo/rules/).├── .roo/│   └── rules/          # Workspace-wide rules│       ├── 01-general.md│       └── 02-coding-style.txt└── ... (other project files)
+- Fallback Method: Single File (.roorules).├── .roorules           # Workspace-wide rules (single file)└── ... (other project files)
+
+- Preferred Method: Directory (.roo/rules-{modeSlug}/).├── .roo/│   └── rules-code/     # Rules for "code" mode│       ├── 01-js-style.md│       └── 02-ts-style.md└── ... (other project files)
+- Fallback Method: Single File (.roorules-{modeSlug}).├── .roorules-code      # Rules for "code" mode (single file)└── ... (other project files)
+
+- Preferred Method: Directory-Based (.roo/rules/)Create a directory named.roo/rules/in your workspace root.Place instruction files (e.g.,.md,.txt) inside. Roo Code reads files recursively, appending their content to the system prompt inalphabetical orderbased on filename.This method takes precedence if the directory exists and contains files.
+- Fallback Method: File-Based (.roorules)If.roo/rules/doesn't exist or is empty, Roo Code looks for a single.roorulesfile in the workspace root.If found, its content is loaded.
+
+- Create a directory named.roo/rules/in your workspace root.
+- Place instruction files (e.g.,.md,.txt) inside. Roo Code reads files recursively, appending their content to the system prompt inalphabetical orderbased on filename.
+- This method takes precedence if the directory exists and contains files.
+
+- If.roo/rules/doesn't exist or is empty, Roo Code looks for a single.roorulesfile in the workspace root.
+- If found, its content is loaded.
+
+- Open Tab:Click theicon in the Roo Code top menu bar
+- Select Mode:Under the Modes heading, click the button for the mode you want to customize
+- Enter Instructions:Enter your instructions in the text area under "Mode-specific Custom Instructions (optional)"
+- Save Changes:Click "Done" to save your changesGlobal Mode RulesIf the mode itself is global (not workspace-specific), any custom instructions you set for it will also apply globally for that mode across all workspaces.
+
+- Preferred Method: Directory-Based (.roo/rules-{modeSlug}/)Create a directory named.roo/rules-{modeSlug}/(e.g.,.roo/rules-docs-writer/) in your workspace root.Place instruction files inside (recursive loading). Files are read and appended to the system prompt inalphabetical orderby filename.This method takes precedence over the fallback file method for the specific mode if the directory exists and contains files.
+- Fallback Method: File-Based (.roorules-{modeSlug})If.roo/rules-{modeSlug}/doesn't exist or is empty, Roo Code looks for a single.roorules-{modeSlug}file (e.g.,.roorules-code) in the workspace root.If found, its content is loaded for that mode.
+
+- Create a directory named.roo/rules-{modeSlug}/(e.g.,.roo/rules-docs-writer/) in your workspace root.
+- Place instruction files inside (recursive loading). Files are read and appended to the system prompt inalphabetical orderby filename.
+- This method takes precedence over the fallback file method for the specific mode if the directory exists and contains files.
+
+- If.roo/rules-{modeSlug}/doesn't exist or is empty, Roo Code looks for a single.roorules-{modeSlug}file (e.g.,.roorules-code) in the workspace root.
+- If found, its content is loaded for that mode.
+
+- File Location:The preferred method uses directories within.roo/(.roo/rules/and.roo/rules-{modeSlug}/). The fallback method uses single files (.roorulesand.roorules-{modeSlug}) located directly in the workspace root.
+- Empty Files:Empty or missing rule files are silently skipped
+- Source Headers:Each rule file's contents are included with a header indicating its source
+- Rule Interaction:Mode-specific rules complement global rules rather than replacing them
+
+- "Always use spaces for indentation, with a width of 4 spaces"
+- "Use camelCase for variable names"
+- "Write unit tests for all new functions"
+- "Explain your reasoning before providing code"
+- "Focus on code readability and maintainability"
+- "Prioritize using the most common library in the community"
+- "When adding new features to websites, ensure they are responsive and accessible"
+
+- What Are Custom Instructions?
+- Setting Custom InstructionsGlobal Custom InstructionsWorkspace-Level Instructions
+- How Instructions are Combined
+- Rules about .rules files
+- Examples of Custom Instructions
+- Combining with Custom Modes
+
+- Global Custom Instructions
+- Workspace-Level Instructions
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Open Prompts Tab:Click theicon in the Roo Code top menu bar
+- Find Section:Find the "Custom Instructions for All Modes" section
+- Enter Instructions:Enter your instructions in the text area
+- Save Changes:Click "Done" to save your changes
+
+- Using the Prompts Tab:Open Tab:Click theicon in the Roo Code top menu barSelect Mode:Under the Modes heading, click the button for the mode you want to customizeEnter Instructions:Enter your instructions in the text area under "Mode-specific Custom Instructions (optional)"Save Changes:Click "Done" to save your changesGlobal Mode RulesIf the mode itself is global (not workspace-specific), any custom instructions you set for it will also apply globally for that mode across all workspaces.
+- Using Rule Files/Directories:Provide mode-specific instructions via files:Preferred Method: Directory-Based (.roo/rules-{modeSlug}/)Create a directory named.roo/rules-{modeSlug}/(e.g.,.roo/rules-docs-writer/) in your workspace root.Place instruction files inside (recursive loading). Files are read and appended to the system prompt inalphabetical orderby filename.This method takes precedence over the fallback file method for the specific mode if the directory exists and contains files.Fallback Method: File-Based (.roorules-{modeSlug})If.roo/rules-{modeSlug}/doesn't exist or is empty, Roo Code looks for a single.roorules-{modeSlug}file (e.g.,.roorules-code) in the workspace root.If found, its content is loaded for that mode.
+
+
+CODE EXAMPLES:
+```
+.roo/rules/
+```
+
+```
+.├── .roo/│   └── rules/          # Workspace-wide rules│       ├── 01-general.md│       └── 02-coding-style.txt└── ... (other project files)
+```
+
+```
+.roorules
+```
+
+```
+.├── .roorules           # Workspace-wide rules (single file)└── ... (other project files)
+```
+
+```
+code
+```
+
+```
+.roo/rules-{modeSlug}/
+```
+
+```
+.├── .roo/│   └── rules-code/     # Rules for "code" mode│       ├── 01-js-style.md│       └── 02-ts-style.md└── ... (other project files)
+```
+
+```
+.roorules-{modeSlug}
+```
+
+```
+.├── .roorules-code      # Rules for "code" mode (single file)└── ... (other project files)
+```
+
+```
+.roo/rules/
+```
+
+```
+.roo/rules/
+```
+
+```
+.md
+```
+
+```
+.txt
+```
+
+```
+.roorules
+```
+
+```
+.roo/rules/
+```
+
+```
+.roorules
+```
+
+```
+.roo/rules-{modeSlug}/
+```
+
+```
+.roo/rules-{modeSlug}/
+```
+
+```
+.roo/rules-docs-writer/
+```
+
+```
+.roorules-{modeSlug}
+```
+
+```
+.roo/rules-{modeSlug}/
+```
+
+```
+.roorules-{modeSlug}
+```
+
+```
+.roorules-code
+```
+
+```
+====USER'S CUSTOM INSTRUCTIONSThe following additional instructions are provided by the user, and should be followed to the best of your ability without interfering with the TOOL USE guidelines.[Language Preference (if set)][Global Instructions (from Prompts Tab)][Mode-specific Instructions (from Prompts Tab for the current mode)]Mode-Specific Instructions (from Files/Directories):[Contents of files in .roo/rules-{modeSlug}/ (if directory exists and is not empty)][Contents of .roorules-{modeSlug} file (if .roo/rules-{modeSlug}/ does not exist or is empty, and file exists)]Workspace-Wide Instructions (from Files/Directories):[Contents of files in .roo/rules/ (if directory exists and is not empty)][Contents of .roorules file (if .roo/rules/ does not exist or is empty, and file exists)]====
+```
+
+```
+.roo/
+```
+
+```
+.roo/rules/
+```
+
+```
+.roo/rules-{modeSlug}/
+```
+
+```
+.roorules
+```
+
+```
+.roorules-{modeSlug}
+```
+
+```
+.roo/rules/
+```
+
+```
+.roo/rules-{modeSlug}/
+```
+
+```
+.roorules
+```
+
+
+
+==================================================
+PAGE: advanced-usage/local-models
+URL: https://docs.roocode.com/advanced-usage/local-models
+==================================================
+
+TITLE: Using Local Models | Roo Code Docs
+
+
+H1 HEADINGS:
+Using Local Models
+
+H2 HEADINGS:
+Supported Local Model Providers​
+Setting Up Local Models​
+Troubleshooting​
+
+CONTENT:
+Roo Code supports running language models locally on your own machine usingOllamaandLM Studio.  This offers several advantages:
+
+However, using local models also has some drawbacks:
+
+Roo Code currently supports two main local model providers:
+
+For detailed setup instructions, see:
+
+Both providers offer similar capabilities but with different user interfaces and workflows. Ollama provides more control through its command-line interface, while LM Studio offers a more user-friendly graphical interface.
+
+"No connection could be made because the target machine actively refused it":This usually means that the Ollama or LM Studio server isn't running, or is running on a different port/address than Roo Code is configured to use.  Double-check the Base URL setting.
+
+Slow Response Times:Local models can be slower than cloud-based models, especially on less powerful hardware.  If performance is an issue, try using a smaller model.
+
+Model Not Found:Ensure you have typed in the name of the model correctly. If you're using Ollama, use the same name that you provide in theollama runcommand.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- Features
+- Advanced UsagePrompt Engineering TipsWorking with Large ProjectsRate Limits and CostsUsing Local Models
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Prompt Engineering Tips
+- Working with Large Projects
+- Rate Limits and Costs
+- Using Local Models
+
+- 
+- Advanced Usage
+- Using Local Models
+
+- Privacy:Your code and data never leave your computer.
+- Offline Access:You can use Roo Code even without an internet connection.
+- Cost Savings:Avoid API usage fees associated with cloud-based models.
+- Customization:Experiment with different models and configurations.
+
+- Resource Requirements:Local models can be resource-intensive, requiring a powerful computer with a good CPU and, ideally, a dedicated GPU.
+- Setup Complexity:Setting up local models can be more complex than using cloud-based APIs.
+- Model Performance:The performance of local models can vary significantly. While some are excellent, they may not always match the capabilities of the largest, most advanced cloud models.
+- Limited Features: Local models (and many online models) often do not support advanced features such as prompt caching, computer use, and others.
+
+- Setting up Ollama
+- Setting up LM Studio
+
+- "No connection could be made because the target machine actively refused it":This usually means that the Ollama or LM Studio server isn't running, or is running on a different port/address than Roo Code is configured to use.  Double-check the Base URL setting.
+- Slow Response Times:Local models can be slower than cloud-based models, especially on less powerful hardware.  If performance is an issue, try using a smaller model.
+- Model Not Found:Ensure you have typed in the name of the model correctly. If you're using Ollama, use the same name that you provide in theollama runcommand.
+
+- Supported Local Model Providers
+- Setting Up Local Models
+- Troubleshooting
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Ollama:A popular open-source tool for running large language models locally.  It supports a wide range of models.
+- LM Studio:A user-friendly desktop application that simplifies the process of downloading, configuring, and running local models.  It also provides a local server that emulates the OpenAI API.
+
+
+CODE EXAMPLES:
+```
+ollama run
+```
+
+
+
+==================================================
+PAGE: features/auto-approving-actions
+URL: https://docs.roocode.com/features/auto-approving-actions
+==================================================
+
+TITLE: Auto-Approving Actions | Roo Code Docs
+
+
+H1 HEADINGS:
+Auto-Approving Actions
+
+H2 HEADINGS:
+Quick Start Guide​
+Auto-Approve Toolbar​
+Master Toggle for Quick Control​
+Advanced Settings Panel​
+
+H3 HEADINGS:
+Available Permissions​
+Read Operations​
+Write Operations​
+Browser Actions​
+API Requests​
+MCP Tools​
+Mode Switching​
+Subtasks​
+Command Execution​
+
+H4 HEADINGS:
+Write Delay & Problems Pane Integration​
+
+CONTENT:
+⚠️SECURITY WARNING:Auto-approve settings bypass confirmation prompts, giving Roo direct access to your system. This can result indata loss, file corruption, or worse. Command line access is particularly dangerous, as it can potentially execute harmful operations that could damage your system or compromise security. Only enable auto-approval for actions you fully trust.
+
+Auto-approve settings speed up your workflow by eliminating repetitive confirmation prompts, but they significantly increase security risks.
+
+Prompt box and Auto-Approve Toolbar showing enabled permissions
+
+Click the toolbar to expand it and configure individual permissions:
+
+Prompt text box and Expanded toolbar with all options
+
+The leftmost checkbox works as a master toggle:
+
+Master toggle (checkbox) controls all auto-approve permissions at once
+
+Use the master toggle when:
+
+The settings panel provides detailed control with important security context:
+
+Allow Roo to automatically perform operations without requiring approval. Enable these settings only if you fully trust the AI and understand the associated security risks.
+
+To access these settings:
+
+Complete settings panel view
+
+Setting:"Always approve read-only operations"
+
+Description:"When enabled, Roo will automatically view directory contents and read files without requiring you to click the Approve button."
+
+Risk level:Medium
+
+While this setting only allows reading files (not modifying them), it could potentially expose sensitive data. Still recommended as a starting point for most users, but be mindful of what files Roo can access.
+
+Setting:"Always approve write operations"
+
+Description:"Automatically create and edit files without requiring approval"
+
+Delay slider:"Delay after writes to allow diagnostics to detect potential problems" (Default: 1000ms)
+
+Risk level:High
+
+This setting allows Roo to modify your files without confirmation. The delay timer is crucial:
+
+VSCode Problems pane that Roo checks during the write delay
+
+When you enable auto-approval for writing files, the delay timer works with VSCode's Problems pane:
+
+This works like a human developer pausing to check for errors after changing code. You can adjust the delay time based on:
+
+Setting:"Always approve browser actions"
+
+Description:"Automatically perform browser actions without requiring approval"
+
+Note:"Only applies when the model supports computer use"
+
+Risk level:Medium
+
+Allows Roo to control a headless browser without confirmation. This can include:
+
+Consider the security implications of allowing automated browser access.
+
+Setting:"Always retry failed API requests"
+
+Description:"Automatically retry failed API requests when server returns an error response"
+
+Delay slider:"Delay before retrying the request" (Default: 5s)
+
+Risk level:Low
+
+This setting automatically retries API calls when they fail. The delay controls how long Roo waits before trying again:
+
+Setting:"Always approve MCP tools"
+
+Description:"Enable auto-approval of individual MCP tools in the MCP Servers view (requires both this setting and the tool's individual 'Always allow' checkbox)"
+
+Risk level:Medium-High (depends on configured MCP tools)
+
+This setting works in conjunction with individual tool permissions in the MCP Servers view. Both this global setting and the tool-specific permission must be enabled for auto-approval.
+
+Setting:"Always approve mode switching"
+
+Description:"Automatically switch between different modes without requiring approval"
+
+Risk level:Low
+
+Allows Roo to change between different modes (Code, Architect, etc.) without asking for permission. This primarily affects the AI's behavior rather than system access.
+
+Setting:"Always approve creation & completion of subtasks"
+
+Description:"Allow creation and completion of subtasks without requiring approval"
+
+Risk level:Low
+
+Enables Roo to create and complete subtasks automatically. This relates to workflow organization rather than system access.
+
+Setting:"Always approve allowed execute operations"
+
+Description:"Automatically execute allowed terminal commands without requiring approval"
+
+Command management:"Command prefixes that can be auto-executed when 'Always approve execute operations' is enabled. Add * to allow all commands (use with caution)."
+
+Risk level:High
+
+This setting allows terminal command execution with controls. While risky, the whitelist feature limits what commands can run. Important security features:
+
+Interface elements:
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Auto-Approving Actions
+
+- Working in sensitive code (turn off)
+- Doing rapid development (turn on)
+- Switching between exploration and editing tasks
+
+- Higher values (2000ms+): Recommended for complex projects where diagnostics take longer
+- Default (1000ms): Suitable for most projects
+- Lower values: Use only when speed is critical and you're in a controlled environment
+- Zero: No delay for diagnostics (not recommended for critical code)
+
+- Project complexity
+- Language server speed
+- How important error detection is for your workflow
+
+- Opening websites
+- Navigating pages
+- Interacting with web elements
+
+- Longer delays are gentler on API rate limits
+- Shorter delays give faster recovery from transient errors
+
+- Whitelist specific command prefixes (recommended)
+- Never use * wildcard in production or with sensitive data
+- Consider security implications of each allowed command
+- Always verify commands that interact with external systems
+
+- Text field to enter command prefixes (e.g., 'git')
+- "Add" button to add new prefixes
+- Clickable command buttons with X to remove them
+
+- Quick Start Guide
+- Auto-Approve ToolbarAvailable Permissions
+- Master Toggle for Quick Control
+- Advanced Settings PanelRead OperationsWrite OperationsBrowser ActionsAPI RequestsMCP ToolsMode SwitchingSubtasksCommand Execution
+
+- Available Permissions
+
+- Read Operations
+- Write Operations
+- Browser Actions
+- API Requests
+- MCP Tools
+- Mode Switching
+- Subtasks
+- Command Execution
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Click the Auto-Approve Toolbar above the chat input
+- Select which actions Roo can perform without asking permission
+- Use the master toggle (leftmost checkbox) to quickly enable/disable all permissions
+
+- Clickin the top-right corner
+- Navigate to Auto-Approve Settings
+
+- Roo makes a change to your file
+- VSCode's diagnostic tools analyze the change
+- The Problems pane updates with any errors or warnings
+- Roo notices these issues before continuing
+
+
+
+==================================================
+PAGE: basic-usage/the-chat-interface
+URL: https://docs.roocode.com/basic-usage/the-chat-interface
+==================================================
+
+TITLE: The Chat Interface | Roo Code Docs
+
+
+H1 HEADINGS:
+The Chat Interface
+
+H2 HEADINGS:
+Components of the Chat Interface​
+Interacting with Messages​
+Status Indicators​
+
+CONTENT:
+The Roo Code chat interface is your primary way of interacting with it. It's located in the Roo Code panel, which you can open by clicking the Roo Code icon () in the VS Code Activity Bar.
+
+The chat interface consists of the following main elements:
+
+Chat History:This area displays the conversation history between you and Roo Code.  It shows your requests, Roo Code's responses, and any actions taken (like file edits or command executions).
+
+Input Field:This is where you type your tasks and questions for Roo Code.  You can use plain English to communicate.
+
+Action Buttons:These buttons appear below the input field and allow you to approve or reject Roo Code's proposed actions.  The available buttons change depending on the context.
+
+Send Button:This looks like a small plane and it's located to the far right of the input field. This sends messages to Roo after you've typed them.
+
+Plus Button:The plus button is located at the top in the header, and it resets the current session.
+
+Settings Button:The settings button is a gear, and it's used for opening the settings to customize features or behavior.
+
+Mode Selector:The mode selector is a dropdown located to the left of the chat input field. It is used for selecting which mode Roo should use for your tasks.
+
+Numbered interface elements showing the key components of the Roo Code chat interface.
+
+
+LISTS:
+- Welcome
+- Getting StartedInstalling Roo CodeConnecting To A ProviderYour First TaskThe Chat InterfaceTyping Your RequestsHow Tools WorkContext MentionsUsing ModesTips & Tricks
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Installing Roo Code
+- Connecting To A Provider
+- Your First Task
+- The Chat Interface
+- Typing Your Requests
+- How Tools Work
+- Context Mentions
+- Using Modes
+- Tips & Tricks
+
+- 
+- Getting Started
+- The Chat Interface
+
+- Clickable Links:File paths, URLs, and other mentions in the chat history are clickable.  Clicking a file path will open the file in the editor.  Clicking a URL will open it in your default browser.
+- Copying Text:You can copy text from the chat history by selecting it and using the standard copy command (Ctrl/Cmd + C).  Some elements, like code blocks, have a dedicated "Copy" button.
+- Expanding and Collapsing: Click on a message to expand or collapse it.
+
+- Loading Spinner:When Roo Code is processing a request, you'll see a loading spinner.
+- Error Messages:If an error occurs, a red error message will be displayed.
+- Success Messages:Green messages indicate successful completion of actions.
+
+- Components of the Chat Interface
+- Interacting with Messages
+- Status Indicators
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Chat History:This area displays the conversation history between you and Roo Code.  It shows your requests, Roo Code's responses, and any actions taken (like file edits or command executions).
+- Input Field:This is where you type your tasks and questions for Roo Code.  You can use plain English to communicate.
+- Action Buttons:These buttons appear below the input field and allow you to approve or reject Roo Code's proposed actions.  The available buttons change depending on the context.
+- Send Button:This looks like a small plane and it's located to the far right of the input field. This sends messages to Roo after you've typed them.
+- Plus Button:The plus button is located at the top in the header, and it resets the current session.
+- Settings Button:The settings button is a gear, and it's used for opening the settings to customize features or behavior.
+- Mode Selector:The mode selector is a dropdown located to the left of the chat input field. It is used for selecting which mode Roo should use for your tasks.
+
+
+
+==================================================
+PAGE: basic-usage/typing-your-requests
+URL: https://docs.roocode.com/basic-usage/typing-your-requests
+==================================================
+
+TITLE: Typing Your Requests | Roo Code Docs
+
+
+H1 HEADINGS:
+Typing Your Requests
+
+H2 HEADINGS:
+Effective Request Strategies​
+Example Requests​
+Common Pitfalls to Avoid​
+
+CONTENT:
+Roo Code is designed to understand natural language.  You don't need to use any special commands or syntax to communicate with it.  Just type your request in plain English, as if you were talking to a human developer.
+
+Clearly state what you want Roo Code to do.  Avoid vague or ambiguous language.
+
+
+LISTS:
+- Welcome
+- Getting StartedInstalling Roo CodeConnecting To A ProviderYour First TaskThe Chat InterfaceTyping Your RequestsHow Tools WorkContext MentionsUsing ModesTips & Tricks
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Installing Roo Code
+- Connecting To A Provider
+- Your First Task
+- The Chat Interface
+- Typing Your Requests
+- How Tools Work
+- Context Mentions
+- Using Modes
+- Tips & Tricks
+
+- 
+- Getting Started
+- Typing Your Requests
+
+- Effective Request Strategies
+- Example Requests
+- Common Pitfalls to Avoid
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+CODE EXAMPLES:
+```
+calculateTotal
+```
+
+```
+create a new file named `utils.py` and add a function called `add` that takes two numbers as arguments and returns their sum
+```
+
+```
+in the file @src/components/Button.tsx, change the color of the button to blue
+```
+
+```
+find all instances of the variable `oldValue` in @/src/App.js and replace them with `newValue`
+```
+
+```
+run the command `npm install` in the terminal
+```
+
+```
+explain the function `calculateTotal` in @/src/utils.ts
+```
+
+```
+@problems address all detected problems
+```
+
+
+
+==================================================
+PAGE: basic-usage/context-mentions
+URL: https://docs.roocode.com/basic-usage/context-mentions
+==================================================
+
+TITLE: Context Mentions | Roo Code Docs
+
+
+H1 HEADINGS:
+Context Mentions
+
+H2 HEADINGS:
+Types of Mentions​
+How to Use Mentions​
+Best Practices​
+
+H3 HEADINGS:
+File Mentions​
+Folder Mentions​
+Problems Mention​
+Terminal Mention​
+Git Mentions​
+URL Mentions​
+
+CONTENT:
+Context mentions are a powerful way to provide Roo Code with specific information about your project, allowing it to perform tasks more accurately and efficiently. You can use mentions to refer to files, folders, problems, and Git commits. Context mentions start with the@symbol.
+
+Context mentions overview showing the @ symbol dropdown menu in the chat interface.
+
+File mentions add actual code content into the conversation for direct reference and analysis.
+
+File mentions incorporate source code with line numbers for precise references.
+
+Folder mentions include the content of all files within the specified directory.
+
+Problems mentions import diagnostics directly from VS Code's problems panel.
+
+Terminal mentions capture recent command output for debugging and analysis.
+
+Git mentions provide commit details and diffs for context-aware version analysis.
+
+URL mentions import external web content and convert it to readable Markdown format.
+
+The dropdown automatically suggests:
+
+
+LISTS:
+- Welcome
+- Getting StartedInstalling Roo CodeConnecting To A ProviderYour First TaskThe Chat InterfaceTyping Your RequestsHow Tools WorkContext MentionsUsing ModesTips & Tricks
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Installing Roo Code
+- Connecting To A Provider
+- Your First Task
+- The Chat Interface
+- Typing Your Requests
+- How Tools Work
+- Context Mentions
+- Using Modes
+- Tips & Tricks
+
+- 
+- Getting Started
+- Context Mentions
+
+- Recently opened files
+- Visible folders
+- Recent git commits
+- Special keywords (problems,terminal,git-changes)
+
+- Types of MentionsFile MentionsFolder MentionsProblems MentionTerminal MentionGit MentionsURL Mentions
+- How to Use Mentions
+- Best Practices
+
+- File Mentions
+- Folder Mentions
+- Problems Mention
+- Terminal Mention
+- Git Mentions
+- URL Mentions
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Type@in the chat input to trigger the suggestions dropdown
+- Continue typing to filter suggestions or use arrow keys to navigate
+- Select with Enter key or mouse click
+- Combine multiple mentions in a request: "Fix @problems in @/src/component.ts"
+
+
+CODE EXAMPLES:
+```
+@
+```
+
+```
+@/path/to/file.ts
+```
+
+```
+@/path/to/folder
+```
+
+```
+@problems
+```
+
+```
+@terminal
+```
+
+```
+@a1b2c3d
+```
+
+```
+@git-changes
+```
+
+```
+@https://example.com
+```
+
+```
+@/path/to/file.ts
+```
+
+```
+/
+```
+
+```
+@/path/to/folder
+```
+
+```
+@problems
+```
+
+```
+@terminal
+```
+
+```
+@a1b2c3d
+```
+
+```
+@git-changes
+```
+
+```
+git status
+```
+
+```
+@https://example.com
+```
+
+```
+@
+```
+
+```
+problems
+```
+
+```
+terminal
+```
+
+```
+git-changes
+```
+
+```
+@/src/file.ts
+```
+
+```
+@C:/Projects/src/file.ts
+```
+
+
+
+==================================================
+PAGE: tips-and-tricks
+URL: https://docs.roocode.com/tips-and-tricks
+==================================================
+
+TITLE: Tips & Tricks | Roo Code Docs
+
+
+H1 HEADINGS:
+Tips & Tricks
+
+CONTENT:
+A collection of quick tips to help you get the most out of Roo Code.
+
+
+LISTS:
+- Welcome
+- Getting StartedInstalling Roo CodeConnecting To A ProviderYour First TaskThe Chat InterfaceTyping Your RequestsHow Tools WorkContext MentionsUsing ModesTips & Tricks
+- Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- Installing Roo Code
+- Connecting To A Provider
+- Your First Task
+- The Chat Interface
+- Typing Your Requests
+- How Tools Work
+- Context Mentions
+- Using Modes
+- Tips & Tricks
+
+- 
+- Getting Started
+- Tips & Tricks
+
+- Drag Roo Code to theSecondary Sidebarso you can see the Explorer, Search, Source Control, etc.
+
+- Once you have Roo Code in a separate sidebar from the file explorer, you can drag files from the explorer into the chat window (and even multiple at once). Just make sure to hold down the shift key after you start dragging the files.
+- If you're not usingMCP, turn it off in thePrompts tab to significantly cut down the size of the system prompt.
+- To keep yourcustom modeson track, limit the types of files that they're allowed to edit.
+- If you hit the dreadedinput length and max tokens exceed context limiterror, you can recover by deleting a message, rolling back to a previous checkpoint, or switching over to a model with a long context window like Gemini for a message.
+- In general, be thoughtful about yourMax Tokenssetting for thinking models. Every token you allocate to that takes away from space available to store conversation history. Consider only using highMax Tokens/Max Thinking Tokenssettings with modes like Architect and Debug, and keeping Code mode at 16k max tokens or less.
+- If there's a real world job posting for something you want a custom mode to do, try asking Code mode toCreate a custom mode based on the job posting at @[url]
+- If you want to really accelerate, check out multiple copies of your repository and run Roo Code on all of them in parallel (using git to resolve any conflicts, same as with human devs).
+- When using Debug mode, ask Roo to "start a new task in Debug mode with all of the necessary context needed to figure out X" so that the debugging process uses its own context window and doesn't pollute the main task
+- Add your own tips by clicking "Edit this page" below!
+- To manage large files and reduce context/resource usage, adjust theFile read auto-truncate thresholdsetting. This setting controls the number of lines read from a file in one batch. Lower values can improve performance when working with very large files, but may require more read operations. You can find this setting in the Roo Code settings under 'Advanced Settings'.
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+CODE EXAMPLES:
+```
+input length and max tokens exceed context limit
+```
+
+```
+Max Tokens
+```
+
+```
+Max Tokens
+```
+
+```
+Max Thinking Tokens
+```
+
+```
+Create a custom mode based on the job posting at @[url]
+```
+
+```
+File read auto-truncate threshold
+```
+
+
+
+==================================================
+PAGE: features/boomerang-tasks
+URL: https://docs.roocode.com/features/boomerang-tasks
+==================================================
+
+TITLE: Boomerang Tasks: Orchestrate Complex Workflows | Roo Code Docs
+
+
+H1 HEADINGS:
+Boomerang Tasks: Orchestrate Complex Workflows
+
+H2 HEADINGS:
+Why Use Boomerang Tasks?​
+How It Works​
+Key Considerations​
+Setting Up Boomerang Mode​
+Footnotes​
+
+H3 HEADINGS:
+Download Configuration​
+Manual Configuration​
+
+CONTENT:
+Boomerang Tasks (also known as subtasks or task orchestration) allow you to break down complex projects into smaller, manageable pieces. Think of it like delegating parts of your work to specialized assistants. Each subtask runs in its own context, often using a different Roo Code mode tailored for that specific job (likecode,architect, ordebug).
+
+TheBoomerang Modementioned here is not a built-in mode but a custom mode you can create yourself. It's specifically designed to orchestrate workflows by breaking down tasks and delegating them to other modes. See theSetting Up Boomerang Modesection below for instructions.
+
+Learn more aboutBuilt-in Modesor the general process of creatingCustom Modes.
+
+Using aCustom Modeconfigured for orchestration (like theBoomerang Modedescribed below), Roo can analyze a complex task and suggest breaking it down into a subtask1.
+
+The parent task pauses, and the new subtask begins in a different mode2.
+
+When the subtask's goal is achieved, Roo signals completion.
+
+The parent task resumes with only the summary3of the subtask. The parent uses this summary to continue the main workflow.
+
+Boomerang Tasks provide a powerful way to manage complex development workflows directly within Roo Code, leveraging specialized modes for maximum efficiency.
+
+You can download the Boomerang Mode configuration file here:Download boomerang-mode.roomodes. Rename to.roomodesand place in the root directory of your project.
+
+You can also create your own Boomerang Mode. Follow the steps in theCustom Modesdocumentation, using the text below for the key configuration fields.
+
+Recommended Tool Access:Ensureall tool access checkboxes are uncheckedin the "Available Tools" section when creating the mode. Boomerang Mode primarily uses thenew_taskcapability (which doesn't require specific tool group permissions) to delegate work to other modes.
+
+Role Definition:
+
+Mode-specific Custom Instructions:
+
+This context is passed via themessageparameter of thenew_tasktool.↩
+
+The mode for the subtask is specified via themodeparameter of thenew_tasktool during initiation.↩
+
+This summary is passed via theresultparameter of theattempt_completiontool when the subtask finishes.↩
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Boomerang Tasks
+
+- Tackle Complexity:Break large, multi-step projects (e.g., building a full feature) into focused subtasks (e.g., design, implementation, documentation).
+- Use Specialized Modes:Automatically delegate subtasks to the mode best suited for that specific piece of work, leveraging specialized capabilities for optimal results.
+- Maintain Focus & Efficiency:Each subtask operates in its own isolated context with a separate conversation history. This prevents the parent (orchestrator) task from becoming cluttered with the detailed execution steps (like code diffs or file analysis results), allowing it to focus efficiently on the high-level workflow and manage the overall process based on concise summaries from completed subtasks.
+- Streamline Workflows:Results from one subtask can be automatically passed to the next, creating a smooth flow (e.g., architectural decisions feeding into the coding task).
+
+- Approval Required:By default, you must approve the creation and completion of each subtask. This can be automated via theAuto-Approving Actionssettings if desired.
+- Context Isolation and Transfer:Each subtask operates in complete isolation with its own conversation history. It does not automatically inherit the parent's context. Information must be explicitly passed:Down:Via the initial instructions provided when the subtask is created.Up:Via the final summary provided when the subtask finishes. Be mindful that only this summary returns to the parent.
+- Navigation:Roo's interface helps you see the hierarchy of tasks (which task is the parent, which are children). You can typically navigate between active and paused tasks.
+
+- Down:Via the initial instructions provided when the subtask is created.
+- Up:Via the final summary provided when the subtask finishes. Be mindful that only this summary returns to the parent.
+
+- Why Use Boomerang Tasks?
+- How It Works
+- Key Considerations
+- Setting Up Boomerang ModeDownload ConfigurationManual Configuration
+
+- Download Configuration
+- Manual Configuration
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Using aCustom Modeconfigured for orchestration (like theBoomerang Modedescribed below), Roo can analyze a complex task and suggest breaking it down into a subtask1.
+- The parent task pauses, and the new subtask begins in a different mode2.
+- When the subtask's goal is achieved, Roo signals completion.
+- The parent task resumes with only the summary3of the subtask. The parent uses this summary to continue the main workflow.
+
+- This context is passed via themessageparameter of thenew_tasktool.↩
+- The mode for the subtask is specified via themodeparameter of thenew_tasktool during initiation.↩
+- This summary is passed via theresultparameter of theattempt_completiontool when the subtask finishes.↩
+
+
+CODE EXAMPLES:
+```
+code
+```
+
+```
+architect
+```
+
+```
+debug
+```
+
+```
+Boomerang Mode
+```
+
+```
+Boomerang Mode
+```
+
+```
+.roomodes
+```
+
+```
+new_task
+```
+
+```
+You are Roo, a strategic workflow orchestrator who coordinates complex tasks by delegating them to appropriate specialized modes. You have a comprehensive understanding of each mode's capabilities and limitations, allowing you to effectively break down complex problems into discrete tasks that can be solved by different specialists.
+```
+
+```
+Your role is to coordinate complex workflows by delegating tasks to specialized modes. As an orchestrator, you should:1. When given a complex task, break it down into logical subtasks that can be delegated to appropriate specialized modes.2. For each subtask, use the `new_task` tool to delegate. Choose the most appropriate mode for the subtask's specific goal and provide comprehensive instructions in the `message` parameter. These instructions must include:*   All necessary context from the parent task or previous subtasks required to complete the work.*   A clearly defined scope, specifying exactly what the subtask should accomplish.*   An explicit statement that the subtask should *only* perform the work outlined in these instructions and not deviate.*   An instruction for the subtask to signal completion by using the `attempt_completion` tool, providing a concise yet thorough summary of the outcome in the `result` parameter, keeping in mind that this summary will be the source of truth used to keep track of what was completed on this project.*   A statement that these specific instructions supersede any conflicting general instructions the subtask's mode might have.3. Track and manage the progress of all subtasks. When a subtask is completed, analyze its results and determine the next steps.4. Help the user understand how the different subtasks fit together in the overall workflow. Provide clear reasoning about why you're delegating specific tasks to specific modes.5. When all subtasks are completed, synthesize the results and provide a comprehensive overview of what was accomplished.6. Ask clarifying questions when necessary to better understand how to break down complex tasks effectively.7. Suggest improvements to the workflow based on the results of completed subtasks.Use subtasks to maintain clarity. If a request significantly shifts focus or requires a different expertise (mode), consider creating a subtask rather than overloading the current one.
+```
+
+```
+message
+```
+
+```
+new_task
+```
+
+```
+mode
+```
+
+```
+new_task
+```
+
+```
+result
+```
+
+```
+attempt_completion
+```
+
+
+
+==================================================
+PAGE: features/browser-use
+URL: https://docs.roocode.com/features/browser-use
+==================================================
+
+TITLE: Browser Use | Roo Code Docs
+
+
+H1 HEADINGS:
+Browser Use
+
+H2 HEADINGS:
+How Browser Use Works​
+Using Browser Use​
+How Browser Actions Work​
+Browser Use Configuration/Settings​
+
+H3 HEADINGS:
+Available Browser Actions​
+Accessing Settings​
+Enable/Disable Browser Use​
+Viewport Size​
+Screenshot Quality​
+Remote Browser Connection​
+
+H4 HEADINGS:
+Common Use Cases​
+Connecting to a Visible Chrome Window​
+
+CONTENT:
+Roo Code provides sophisticated browser automation capabilities that let you interact with websites directly from VS Code. This feature enables testing web applications, automating browser tasks, and capturing screenshots without leaving your development environment.
+
+Browser Use within Roo Code requires the use of Claude Sonnet 3.5 or 3.7
+
+By default, Roo Code uses a built-in browser that:
+
+All of this happens directly within VS Code, with no setup required.
+
+A typical browser interaction follows this pattern:
+
+For example:
+
+The browser_action tool controls a browser instance that returns screenshots and console logs after each action, allowing you to see the results of interactions.
+
+Key characteristics:
+
+To change Browser / Computer Use settings in Roo:
+
+Open Settings by clicking the gear icon→ Browser / Computer Use
+
+Purpose: Master toggle that enables Roo to interact with websites using a Puppeteer-controlled browser.
+
+To change this setting:
+
+Check or uncheck the "Enable browser tool" checkbox within your Browser / Computer Use settings
+
+Purpose: Determines the resolution of the browser session Roo Code uses.
+
+Tradeoff: Higher values provide a larger viewport but increase token usage.
+
+To change this setting:
+
+Click the dropdown menu under "Viewport size" within your Browser / Computer Use settings
+
+Select one of the available options:
+
+Select your desired resolution.
+
+Purpose: Controls the WebP compression quality of browser screenshots.
+
+Tradeoff: Higher values provide clearer screenshots but increase token usage.
+
+To change this setting:
+
+Adjust the slider under "Screenshot quality" within your Browser / Computer Use settings
+
+Set a value between 1-100% (default is 75%)
+
+Higher values provide clearer screenshots but increase token usage:
+
+Purpose: Connect Roo to an existing Chrome browser instead of using the built-in browser.
+
+Benefits:
+
+Requirements: Chrome must be running with remote debugging enabled.
+
+To enable this feature:
+
+Check the "Use remote browser connection" box in Browser / Computer Use settings
+
+Click "Test Connection" to verify
+
+Connect to a visible Chrome window to observe Roo's interactions in real-time:
+
+macOS
+
+Windows
+
+Linux
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Browser Use
+
+- Launches automatically when you ask Roo to visit a website
+- Captures screenshots of web pages
+- Allows Roo to interact with web elements
+- Runs invisibly in the background
+
+- Each browser session must start withlaunchand end withclose
+- Only one browser action can be used per message
+- While the browser is active, no other tools can be used
+- You must wait for the response (screenshot and logs) before performing the next action
+
+- Enable browser tool: Enabled
+- Viewport size: Small Desktop (900x600)
+- Screenshot quality: 75%
+- Use remote browser connection: Disabled
+
+- Large Desktop (1280x800)
+- Small Desktop (900x600) - Default
+- Tablet (768x1024)
+- Mobile (360x640)
+
+- 40-50%: Good for basic text-based websites
+- 60-70%: Balanced for most general browsing
+- 80%+: Use when fine visual details are critical
+
+- Works in containerized environments and remote development workflows
+- Maintains authenticated sessions between browser uses
+- Eliminates repetitive login steps
+- Allows use of custom browser profiles with specific extensions
+
+- DevContainers: Connect from containerized VS Code to host Chrome browser
+- Remote Development: Use local Chrome with remote VS Code server
+- Custom Chrome Profiles: Use profiles with specific extensions and settings
+
+- How Browser Use Works
+- Using Browser Use
+- How Browser Actions WorkAvailable Browser Actions
+- Browser Use Configuration/SettingsAccessing SettingsEnable/Disable Browser UseViewport SizeScreenshot QualityRemote Browser Connection
+
+- Available Browser Actions
+
+- Accessing Settings
+- Enable/Disable Browser Use
+- Viewport Size
+- Screenshot Quality
+- Remote Browser Connection
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Ask Roo to visit a website
+- Roo launches the browser and shows you a screenshot
+- Request additional actions (clicking, typing, scrolling)
+- Roo closes the browser when finished
+
+- Open Settings by clicking the gear icon→ Browser / Computer Use
+
+- Check or uncheck the "Enable browser tool" checkbox within your Browser / Computer Use settings
+
+- Click the dropdown menu under "Viewport size" within your Browser / Computer Use settings
+- Select one of the available options:Large Desktop (1280x800)Small Desktop (900x600) - DefaultTablet (768x1024)Mobile (360x640)
+- Select your desired resolution.
+
+- Adjust the slider under "Screenshot quality" within your Browser / Computer Use settings
+- Set a value between 1-100% (default is 75%)
+- Higher values provide clearer screenshots but increase token usage:40-50%: Good for basic text-based websites60-70%: Balanced for most general browsing80%+: Use when fine visual details are critical
+
+- Check the "Use remote browser connection" box in Browser / Computer Use settings
+- Click "Test Connection" to verify
+
+
+CODE EXAMPLES:
+```
+Open the browser and view our site.
+```
+
+```
+Can you check if my website at https://roocode.com is displaying correctly?
+```
+
+```
+Browse http://localhost:3000, scroll down to the bottom of the page and check if the footer information is displaying correctly.
+```
+
+```
+launch
+```
+
+```
+close
+```
+
+```
+launch
+```
+
+```
+click
+```
+
+```
+type
+```
+
+```
+scroll_down
+```
+
+```
+scroll_up
+```
+
+```
+close
+```
+
+```
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-debug --no-first-run
+```
+
+```
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir=C:\chrome-debug --no-first-run
+```
+
+```
+google-chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-debug --no-first-run
+```
+
+
+
+==================================================
+PAGE: features/checkpoints
+URL: https://docs.roocode.com/features/checkpoints
+==================================================
+
+TITLE: Checkpoints | Roo Code Docs
+
+
+H1 HEADINGS:
+Checkpoints
+
+H2 HEADINGS:
+Configuration Options​
+How Checkpoints Work​
+Working with Checkpoints​
+Technical Implementation​
+Git Installation​
+
+H3 HEADINGS:
+Viewing Differences​
+Restoring Checkpoints​
+Limitations and Considerations​
+Checkpoint Architecture​
+Restoration Process​
+Storage Type​
+Diff Computation​
+File Exclusion and Ignore Patterns​
+Concurrency Control​
+macOS​
+Windows​
+Linux​
+
+H4 HEADINGS:
+Built-in Exclusions​
+.gitignore Support​
+.rooignore Behavior​
+Nested Git Repositories​
+
+CONTENT:
+Checkpoints automatically version your workspace files during Roo Code tasks, enabling non-destructive exploration of AI suggestions and easy recovery from unwanted changes.
+
+Checkpoints let you:
+
+Access checkpoint settings in Roo Code settings under the "Checkpoints" section:
+
+Open Settings by clicking the gear icon→ Checkpoints
+
+Check or uncheck the "Enable automatic checkpoints" checkbox
+
+Roo Code captures snapshots of your project's state using a shadow Git repository, separate from your main version control system. These snapshots, called checkpoints, automatically record changes throughout your AI-assisted workflow—whenever tasks begin, files change, or commands run.
+
+Checkpoints are stored as Git commits in the shadow repository, capturing:
+
+Checkpoints are integrated directly into your workflow through the chat interface.
+
+Checkpoints appear directly in your chat history in two forms:
+
+Initial checkpointmarks your starting project state
+
+Regular checkpointsappear after file modifications or command execution
+
+Each checkpoint provides two primary functions:
+
+To compare your current workspace with a previous checkpoint:
+
+Locate the checkpoint in your chat history
+
+Click the checkpoint'sView Differencesbutton
+
+Review the differences in the comparison view:
+
+To restore a project to a previous checkpoint state:
+
+Locate the checkpoint in your chat history
+
+Click the checkpoint'sRestore Checkpointbutton
+
+Choose one of these restoration options:
+
+Restore Files Only- Reverts only workspace files to checkpoint state without modifying conversation history. Ideal for comparing alternative implementations while maintaining chat context, allowing you to seamlessly switch between different project states. This option does not require confirmation and lets you quickly switch between different implementations.
+
+Restore Files & Task- Reverts both workspace files AND removes all subsequent conversation messages. Use when you want to completely reset both your code and conversation back to the checkpoint's point in time. This option requires confirmation in a dialog as it cannot be undone.
+
+The checkpoint system consists of:
+
+Shadow Git Repository: A separate Git repository created specifically for checkpoint tracking that functions as the persistent storage mechanism for checkpoint state.
+
+Checkpoint Service: Handles Git operations and state management through:
+
+UI Components: Interface elements displayed in the chat that enable interaction with checkpoints.
+
+When restoration executes, Roo Code:
+
+Checkpoints are task-scoped, meaning they are specific to a single task.
+
+Checkpoint comparison uses Git's underlying diff capabilities to produce structured file differences:
+
+The checkpoint system uses intelligent file exclusion to track only relevant files:
+
+The system has comprehensive built-in exclusion patterns that automatically ignore:
+
+These patterns are written to the shadow repository's.git/info/excludefile during initialization.
+
+The checkpoint system respects.gitignorepatterns in your workspace:
+
+The.rooignorefile (which controls AI access to files) is separate from checkpoint tracking:
+
+This separation is intentional, as.rooignorelimits which files the AI can access, not which files should be tracked for version history.
+
+The checkpoint system includes special handling for nested Git repositories:
+
+Operations are queued to prevent concurrent Git operations that might corrupt repository state. This ensures that rapid checkpoint operations complete safely even when requested in quick succession.
+
+Checkpoints require Git to be installed on your system. The implementation uses thesimple-gitlibrary, which relies on Git command-line tools to create and manage shadow repositories.
+
+Install with Homebrew (recommended):
+
+Alternative: Install with Xcode Command Line Tools:
+
+Verify installation:
+
+Download Git for Windows:
+
+Run the installer:
+
+Verify installation:
+
+Debian/Ubuntu:
+
+Fedora:
+
+Arch Linux:
+
+Verify installation:
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Checkpoints
+
+- Safely experiment with AI-suggested changes
+- Easily recover from undesired modifications
+- Compare different implementation approaches
+- Revert to previous project states without losing work
+
+- Checkpoints are enabled by default.
+- Git must be installedfor checkpoints to function -see installation instructions
+- No GitHub account or repository is required
+- No Git personal information configuration is needed
+- The shadow Git repository operates independently from your project's existing Git configuration
+
+- File content changes
+- New files added
+- Deleted files
+- Renamed files
+- Binary file changes
+
+- Initial checkpointmarks your starting project state
+- Regular checkpointsappear after file modifications or command execution
+
+- Added lines are highlighted in green
+- Removed lines are highlighted in red
+- Modified files are listed with detailed changes
+- Renamed and moved files are tracked with their path changes
+- New or deleted files are clearly marked
+
+- Restore Files Only- Reverts only workspace files to checkpoint state without modifying conversation history. Ideal for comparing alternative implementations while maintaining chat context, allowing you to seamlessly switch between different project states. This option does not require confirmation and lets you quickly switch between different implementations.
+- Restore Files & Task- Reverts both workspace files AND removes all subsequent conversation messages. Use when you want to completely reset both your code and conversation back to the checkpoint's point in time. This option requires confirmation in a dialog as it cannot be undone.
+
+- Scope: Checkpoints only capture changes made during active Roo Code tasks
+- External changes: Modifications made outside of tasks (manual edits, other tools) aren't included
+- Large files: Very large binary files may impact performance
+- Unsaved work: Restoration will overwrite any unsaved changes in your workspace
+
+- Repository initialization
+- Checkpoint creation and storage
+- Diff computation
+- State restoration
+
+- Performs a hard reset to the specified checkpoint commit
+- Copies all files from the shadow repository to your workspace
+- Updates internal checkpoint tracking state
+
+- Modified files show line-by-line changes
+- Binary files are properly detected and handled
+- Renamed and moved files are tracked correctly
+- File creation and deletion are clearly identified
+
+- Build artifacts and dependency directories (node_modules/,dist/,build/)
+- Media files and binary assets (images, videos, audio)
+- Cache and temporary files (.cache/,.tmp/,.bak)
+- Configuration files with sensitive information (.env)
+- Large data files (archives, executables, binaries)
+- Database files and logs
+
+- Files excluded by.gitignorewon't trigger checkpoint creation
+- Excluded files won't appear in checkpoint diffs
+- Standard Git ignore rules apply when staging file changes
+
+- Files excluded by.rooignorebut not by.gitignorewill still be checkpointed
+- Changes to AI-inaccessible files can still be restored through checkpoints
+
+- Temporarily renames nested.gitdirectories to.git_disabledduring operations
+- Restores them after operations complete
+- Allows proper tracking of files in nested repositories
+- Ensures nested repositories remain functional and unaffected
+
+- Open Terminal
+- Typegit --version
+- You should see a version number likegit version 2.40.0
+
+- Visithttps://git-scm.com/download/win
+- The download should start automatically
+
+- Accept the license agreement
+- Choose installation location (default is recommended)
+- Select components (default options are typically sufficient)
+- Choose the default editor
+- Choose how to use Git from the command line (recommended: Git from the command line and also from 3rd-party software)
+- Configure line ending conversions (recommended: Checkout Windows-style, commit Unix-style)
+- Complete the installation
+
+- Open Command Prompt or PowerShell
+- Typegit --version
+- You should see a version number likegit version 2.40.0.windows.1
+
+- Open Terminal
+- Typegit --version
+- You should see a version number
+
+- Configuration Options
+- How Checkpoints Work
+- Working with CheckpointsViewing DifferencesRestoring CheckpointsLimitations and Considerations
+- Technical ImplementationCheckpoint ArchitectureRestoration ProcessStorage TypeDiff ComputationFile Exclusion and Ignore PatternsConcurrency Control
+- Git InstallationmacOSWindowsLinux
+
+- Viewing Differences
+- Restoring Checkpoints
+- Limitations and Considerations
+
+- Checkpoint Architecture
+- Restoration Process
+- Storage Type
+- Diff Computation
+- File Exclusion and Ignore Patterns
+- Concurrency Control
+
+- macOS
+- Windows
+- Linux
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Open Settings by clicking the gear icon→ Checkpoints
+- Check or uncheck the "Enable automatic checkpoints" checkbox
+
+- Locate the checkpoint in your chat history
+- Click the checkpoint'sView Differencesbutton
+- Review the differences in the comparison view:Added lines are highlighted in greenRemoved lines are highlighted in redModified files are listed with detailed changesRenamed and moved files are tracked with their path changesNew or deleted files are clearly marked
+
+- Locate the checkpoint in your chat history
+- Click the checkpoint'sRestore Checkpointbutton
+- Choose one of these restoration options:Restore Files Only- Reverts only workspace files to checkpoint state without modifying conversation history. Ideal for comparing alternative implementations while maintaining chat context, allowing you to seamlessly switch between different project states. This option does not require confirmation and lets you quickly switch between different implementations.Restore Files & Task- Reverts both workspace files AND removes all subsequent conversation messages. Use when you want to completely reset both your code and conversation back to the checkpoint's point in time. This option requires confirmation in a dialog as it cannot be undone.
+
+- Shadow Git Repository: A separate Git repository created specifically for checkpoint tracking that functions as the persistent storage mechanism for checkpoint state.
+- Checkpoint Service: Handles Git operations and state management through:Repository initializationCheckpoint creation and storageDiff computationState restoration
+- UI Components: Interface elements displayed in the chat that enable interaction with checkpoints.
+
+- Install with Homebrew (recommended):brew install git
+- Alternative: Install with Xcode Command Line Tools:xcode-select --install
+- Verify installation:Open TerminalTypegit --versionYou should see a version number likegit version 2.40.0
+
+- Download Git for Windows:Visithttps://git-scm.com/download/winThe download should start automatically
+- Run the installer:Accept the license agreementChoose installation location (default is recommended)Select components (default options are typically sufficient)Choose the default editorChoose how to use Git from the command line (recommended: Git from the command line and also from 3rd-party software)Configure line ending conversions (recommended: Checkout Windows-style, commit Unix-style)Complete the installation
+- Verify installation:Open Command Prompt or PowerShellTypegit --versionYou should see a version number likegit version 2.40.0.windows.1
+
+
+CODE EXAMPLES:
+```
+View Differences
+```
+
+```
+Restore Checkpoint
+```
+
+```
+node_modules/
+```
+
+```
+dist/
+```
+
+```
+build/
+```
+
+```
+.cache/
+```
+
+```
+.tmp/
+```
+
+```
+.bak
+```
+
+```
+.env
+```
+
+```
+.git/info/exclude
+```
+
+```
+.gitignore
+```
+
+```
+.gitignore
+```
+
+```
+.rooignore
+```
+
+```
+.rooignore
+```
+
+```
+.gitignore
+```
+
+```
+.rooignore
+```
+
+```
+.git
+```
+
+```
+.git_disabled
+```
+
+```
+simple-git
+```
+
+```
+brew install git
+```
+
+```
+xcode-select --install
+```
+
+```
+git --version
+```
+
+```
+git version 2.40.0
+```
+
+```
+git --version
+```
+
+```
+git version 2.40.0.windows.1
+```
+
+```
+sudo apt updatesudo apt install git
+```
+
+```
+sudo dnf install git
+```
+
+```
+sudo pacman -S git
+```
+
+```
+git --version
+```
+
+
+
+==================================================
+PAGE: features/code-actions
+URL: https://docs.roocode.com/features/code-actions
+==================================================
+
+TITLE: Code Actions | Roo Code Docs
+
+
+H1 HEADINGS:
+Code Actions
+
+H2 HEADINGS:
+What are Code Actions?​
+Roo Code's Code Actions​
+Using Code Actions​
+Code Actions and Current Task​
+Customizing Code Action Prompts​
+
+H3 HEADINGS:
+Add to Context Deep Dive​
+1. From the Lightbulb (💡)​
+2. From the Right-Click Context Menu​
+3. From the Command Palette​
+
+CONTENT:
+Code Actions are a powerful feature of VS Code that provide quick fixes, refactorings, and other code-related suggestions directly within the editor. Roo Code integrates with this system to offer AI-powered assistance for common coding tasks.
+
+Code Actions appear as a lightbulb icon (💡) in the editor gutter (the area to the left of the line numbers). They can also be accessed via the right-click context menu, or via keyboard shortcut. They are triggered when:
+
+Clicking the lightbulb, right-clicking and selecting "Roo Code", or using the keyboard shortcut (Ctrl+.orCmd+.on macOS, by default), displays a menu of available actions.
+
+Roo Code provides the following Code Actions:
+
+TheAdd to Contextaction is listed first in the Code Actions menu so you can quickly add code snippets to your conversation. When you use it, Roo Code includes the filename and line numbers along with the code.
+
+This helps Roo understand the exact context of your code within the project, allowing it to provide more relevant and accurate assistance.
+
+Example Chat Input:
+
+(Where@myFile.js:15:25represents the code added via "Add to Context")
+
+Each of these actions can be performed "in a new task" or "in the current task."
+
+There are three main ways to use Roo Code's Code Actions:
+
+Each code action gives you two options:
+
+You can customize the prompts used for each Code Action by modifying the "Support Prompts" in thePromptstab.  This allows you to fine-tune the instructions given to the AI model and tailor the responses to your specific needs.
+
+By using Roo Code's Code Actions, you can quickly get AI-powered assistance directly within your coding workflow. This can save you time and help you write better code.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Code Actions
+
+- You select a range of code.
+- Your cursor is on a line with a problem (error, warning, or hint).
+- You invoke them via command.
+
+- Add to Context:Quickly adds the selected code to your chat with Roo, including line numbers so Roo knows exactly where the code is from. It's listed first in the menu for easy access. (More details below).
+- Explain Code:Asks Roo Code to explain the selected code.
+- Fix Code:Asks Roo Code to fix problems in the selected code (available when diagnostics are present).
+- Improve Code:Asks Roo Code to suggest improvements to the selected code.
+
+- in New Task:Select this to begin a conversation with Roo centered around this code action.
+- in Current Task:If a conversation has already begun, this option will add the code action as an additional message.
+
+- What are Code Actions?
+- Roo Code's Code ActionsAdd to Context Deep Dive
+- Using Code Actions1. From the Lightbulb (💡)2. From the Right-Click Context Menu3. From the Command Palette
+- Code Actions and Current Task
+- Customizing Code Action Prompts
+
+- Add to Context Deep Dive
+
+- 1. From the Lightbulb (💡)
+- 2. From the Right-Click Context Menu
+- 3. From the Command Palette
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Select Code:Select the code you want to work with. You can select a single line, multiple lines, or an entire block of code.
+- Look for the Lightbulb:A lightbulb icon will appear in the gutter next to the selected code (or the line with the error/warning).
+- Click the Lightbulb:Click the lightbulb icon to open the Code Actions menu.
+- Choose an Action:Select the desired Roo Code action from the menu.
+- Review and Approve:Roo Code will propose a solution in the chat panel. Review the proposed changes and approve or reject them.
+
+- Select Code:Select the code you want to work with.
+- Right-Click:Right-click on the selected code to open the context menu.
+- Choose "Roo Code":Select the "Roo Code" option from the context menu. A submenu will appear with the available Roo Code actions.
+- Choose an Action:Select the desired action from the submenu.
+- Review and Approve:Roo Code will propose a solution in the chat panel. Review the proposed changes and approve or reject them.
+
+- Select Code:Select the code you want to work with.
+- Open the Command Palette:PressCtrl+Shift+P(Windows/Linux) orCmd+Shift+P(macOS).
+- Type a Command:Type "Roo Code" to filter the commands, then choose the relevant code action (e.g., "Roo Code: Explain Code"). You can also type the start of the command, like "Roo Code: Explain", and select from the filtered list.
+- Review and Approve:Roo Code will propose a solution in the chat panel. Review the proposed changes and approve or reject them.
+
+- Open the Prompts Tab:Click theicon in the Roo Code top menu bar.
+- Find "Support Prompts":You will see the support prompts, including "Enhance Prompt", "Explain Code", "Fix Code", and "Improve Code".
+- Edit the Prompts:Modify the text in the text area for the prompt you want to customize. You can use placeholders like${filePath}and${selectedText}to include information about the current file and selection.
+- Click "Done":Save your changes.
+
+
+CODE EXAMPLES:
+```
+Ctrl+.
+```
+
+```
+Cmd+.
+```
+
+```
+Can you explain this function?@myFile.js:15:25
+```
+
+```
+@myFile.js:15:25
+```
+
+```
+Ctrl+Shift+P
+```
+
+```
+Cmd+Shift+P
+```
+
+```
+${filePath}
+```
+
+```
+${selectedText}
+```
+
+
+
+==================================================
+PAGE: features/enhance-prompt
+URL: https://docs.roocode.com/features/enhance-prompt
+==================================================
+
+TITLE: Enhance Prompt | Roo Code Docs
+
+
+H1 HEADINGS:
+Enhance Prompt
+
+H2 HEADINGS:
+Why Use Enhance Prompt?​
+How to Use Enhance Prompt​
+Customizing the Enhancement Process​
+API Configuration​
+Limitations and Best Practices​
+
+CONTENT:
+The "Enhance Prompt" feature in Roo Code helps you improve the quality and effectiveness of your prompts before sending them to the AI model.  By clicking theicon in the chat input, you can automatically refine your initial request, making it clearer, more specific, and more likely to produce the desired results.
+
+The "Enhance Prompt" feature uses a customizable prompt template.  You can modify this template to tailor the enhancement process to your specific needs.
+
+The default prompt template includes the placeholder${userInput}, which will be replaced with your original prompt. You can modify this to fit the model's prompt format, and instruct it how to enhance your request.
+
+The API configuration used for Enhance Prompt is, by default, the same one that is selected for Roo Code tasks,
+but it can be changed:
+
+By using the "Enhance Prompt" feature, you can improve the quality of your interactions with Roo Code and get more accurate and helpful responses.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Enhance Prompt
+
+- Improved Clarity:Roo Code can rephrase your prompt to make it more understandable for the AI model.
+- Added Context:The enhancement process can add relevant context to your prompt, such as the current file path or selected code.
+- Better Instructions:Roo Code can add instructions to guide the AI towards a more helpful response (e.g., requesting specific formatting or a particular level of detail).
+- Reduced Ambiguity:Enhance Prompt helps to eliminate ambiguity and ensure that Roo Code understands your intent.
+- Consistency: Roo will consistently format prompts the same way to the AI.
+
+- Experimental Feature:Prompt enhancement is an experimental feature. The quality of the enhanced prompt may vary depending on the complexity of your request and the capabilities of the underlying model.
+- Review Carefully:Always review the enhanced prompt before sending it.  Roo Code may make changes that don't align with your intentions.
+- Iterative Process:You can use the "Enhance Prompt" feature multiple times to iteratively refine your prompt.
+- Not a Replacement for Clear Instructions:While "Enhance Prompt" can help, it's still important to write clear and specific prompts from the start.
+
+- Why Use Enhance Prompt?
+- How to Use Enhance Prompt
+- Customizing the Enhancement Process
+- API Configuration
+- Limitations and Best Practices
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Type your initial prompt:Enter your request in the Roo Code chat input box as you normally would.  This can be a simple question, a complex task description, or anything in between.
+- Click theIcon:Instead of pressing Enter, click theicon located in the bottom right of the chat input box.
+- Review the Enhanced Prompt:Roo Code will replace your original prompt with an enhanced version.  Review the enhanced prompt to make sure it accurately reflects your intent. You can further refine the enhanced prompt before sending.
+- Send the Enhanced Prompt:Press Enter or click the Send icon () to send the enhanced prompt to Roo Code.
+
+- Open the Prompts Tab:Click theicon in the Roo Code top menu bar.
+- Select "ENHANCE" Tab:You should see listed out support prompts, including "ENHANCE". Click on this tab.
+- Edit the Prompt Template:Modify the text in the "Prompt" field.
+
+- Open the Prompts Tab:Click theicon in the Roo Code top menu bar.
+- Select "ENHANCE" Tab:You should see an "API Configuration" dropdown
+- Select an API Configuration:Choose an existing configuration, and future Enhance Prompt requests will be sent to that configured provider/model.
+
+
+CODE EXAMPLES:
+```
+${userInput}
+```
+
+
+
+==================================================
+PAGE: features/fast-edits
+URL: https://docs.roocode.com/features/fast-edits
+==================================================
+
+TITLE: Fast Edits | Roo Code Docs
+
+
+H1 HEADINGS:
+Fast Edits
+
+H2 HEADINGS:
+Enable Editing Through Diffs​
+Match Precision​
+
+CONTENT:
+Fast Edits (using the "Enable editing through diffs" setting) is enabled by default in Roo Code. You typically don't need to change these settings unless you encounter specific issues or want to experiment with different diff strategies.
+
+Roo Code offers an advanced setting to change how it edits files, using diffs (differences) instead of rewriting entire files. Enabling this feature provides significant benefits.
+
+Open Settings by clicking the gear icon→ Advanced
+
+WhenEnable editing through diffsis checked:
+
+If you uncheckEnable editing through diffs, Roo will revert to writing the entire file content for every edit using thewrite_to_filetool, instead of applying targeted changes withapply_diff. This full-write approach is generally slower for modifying existing files and leads to higher token usage.
+
+This slider controls how closely the code sections identified by the AI must match the actual code in your file before a change is applied.
+
+Use values below 100% with extreme caution.Lower precision might be necessary occasionally, but always review the proposed changes carefully.
+
+Internally, this setting adjusts afuzzyMatchThresholdused with algorithms like Levenshtein distance to compare code similarity.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Fast Edits
+
+- 100% (Default): Requires an exact match. This is the safest option, minimizing the risk of incorrect changes.
+- Lower Values (80%-99%): Allows for "fuzzy" matching. Roo can apply changes even if the code section has minor differences from what the AI expected. This can be useful if the file has been slightly modified, butincreases the riskof applying changes in the wrong place.
+
+- Enable Editing Through Diffs
+- Match Precision
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Faster File Editing: Roo modifies files more quickly by applying only the necessary changes.
+- Prevents Truncated Writes: The system automatically detects and rejects attempts by the AI to write incomplete file content, which can happen with large files or complex instructions. This helps prevent corrupted files.
+
+
+CODE EXAMPLES:
+```
+write_to_file
+```
+
+```
+apply_diff
+```
+
+```
+fuzzyMatchThreshold
+```
+
+
+
+==================================================
+PAGE: features/footgun-prompting
+URL: https://docs.roocode.com/features/footgun-prompting
+==================================================
+
+TITLE: Footgun Prompting: Override System Prompts | Roo Code Docs
+
+
+H1 HEADINGS:
+Footgun Prompting: Override System Prompts
+
+H2 HEADINGS:
+How It Works​
+Accessing the Feature​
+Key Considerations & Warnings​
+
+CONTENT:
+Footgun Prompting, AKA Overriding System Prompt, allows advanced users to completely replace the default system prompt for a specific Roo Code mode. This provides granular control over the AI's behavior but bypasses built-in safeguards.
+
+The System Prompt Override is considered a footgun because modifying the core instructions without a deep understanding can lead to unexpected or broken behavior, especially regarding tool usage and response consistency.
+
+You can find the option and instructions within the Roo Code UI:
+
+Use this feature cautiously. While powerful for customization, incorrect implementation can significantly degrade Roo Code's performance and reliability for the affected mode.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Footgun Prompting
+
+- Intended Audience:Best suited for users deeply familiar with Roo Code's prompting system and the implications of modifying core instructions.
+- Impact on Functionality:Custom prompts override standard instructions, including those for tool usage and response consistency. This can cause unexpected behavior or errors if not managed carefully.
+- Mode-Specific:Each override file applies only to the mode specified in its filename ({mode-slug}).
+- No File, No Override:If the.roo/system-prompt-{mode-slug}file doesn't exist, Roo Code uses the standard system prompt generation process for that mode.
+- Directory Creation:Roo Code ensures the.roodirectory exists before attempting to read or create the override file.
+
+- How It Works
+- Accessing the Feature
+- Key Considerations & Warnings
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- (programming slang, humorous, derogatory)Any feature likely to lead to the programmer shooting themself in the foot.
+
+- Override File:Create a file named.roo/system-prompt-{mode-slug}in your workspace root (e.g.,.roo/system-prompt-codefor the Code mode).
+- Content:The content of this file becomes the new system prompt for that specific mode.
+- Activation:Roo Code automatically detects this file. When present, it replaces most of the standard system prompt sections.
+- Preserved Sections:Only the coreroleDefinitionand anycustomInstructionsyou've set for the mode are kept alongside your override content. Standard sections like tool descriptions, rules, and capabilities are bypassed.
+- Construction:The final prompt sent to the model looks like this:${roleDefinition}${content_of_your_override_file}${customInstructions}
+
+- Click theicon in the Roo Code top menu bar.
+- Expand the"Advanced: Override System Prompt"section.
+- Clicking the file path link within the explanation will open or create the correct override file for the currently selected mode in VS Code.
+
+
+CODE EXAMPLES:
+```
+.roo/system-prompt-{mode-slug}
+```
+
+```
+.roo/system-prompt-code
+```
+
+```
+roleDefinition
+```
+
+```
+customInstructions
+```
+
+```
+${roleDefinition}${content_of_your_override_file}${customInstructions}
+```
+
+```
+{mode-slug}
+```
+
+```
+.roo/system-prompt-{mode-slug}
+```
+
+```
+.roo
+```
+
+
+
+==================================================
+PAGE: features/model-temperature
+URL: https://docs.roocode.com/features/model-temperature
+==================================================
+
+TITLE: Model Temperature | Roo Code Docs
+
+
+H1 HEADINGS:
+Model Temperature
+
+H2 HEADINGS:
+What is Temperature?​
+Default Values in Roo Code​
+When to Adjust Temperature​
+How to Adjust Temperature​
+Using API Configuration Profiles for Temperature​
+Technical Implementation​
+Experimentation​
+Related Features​
+
+H3 HEADINGS:
+Effective Temperature Testing​
+
+CONTENT:
+Temperature controls the randomness of AI model outputs. Adjusting this setting optimizes results for different tasks - from precise code generation to creative brainstorming. Temperature is one of the most powerful parameters for controlling AI behavior. A well-tuned temperature setting can dramatically improve the quality and appropriateness of responses for specific tasks.
+
+Temperature is a setting (usually between 0.0 and 2.0) that controls how random or predictable the AI's output is. Finding the right balance is key: lower values make the output more focused and consistent, while higher values encourage more creativity and variation. For many coding tasks, a moderate temperature (around 0.3 to 0.7) often works well, but the best setting depends on what you're trying to achieve.
+
+Temperature controls output randomness, not code quality or accuracy directly. Key points:
+
+Roo Code uses a default temperature of 0.0 for most models, optimizing for maximum determinism and precision in code generation. This applies to OpenAI models, Anthropic models (non-thinking variants), LM Studio models, and most other providers.
+
+Some models use higher default temperatures - DeepSeek R1 models and certain reasoning-focused models default to 0.6, providing a balance between determinism and creative exploration.
+
+Models with thinking capabilities (where the AI shows its reasoning process) require a fixed temperature of 1.0 which cannot be changed, as this setting ensures optimal performance of the thinking mechanism. This applies to any model with the ":thinking" flag enabled.
+
+Some specialized models don't support temperature adjustments at all, in which case Roo Code respects these limitations automatically.
+
+Here are some examples of temperature settings that might work well for different tasks:
+
+These are starting points – it's important toexperiment with different settingsto find what works best for your specific needs and preferences.
+
+Open the Roo Code Panel:Click the Roo Code icon () in the VS Code Activity Bar
+
+Open Settings:Click theicon in the top right corner
+
+Find Temperature Control:Navigate to the Providers section
+
+Enable Custom Temperature:Check the "Use custom temperature" box
+
+Set Your Value:Adjust the slider to your preferred value
+
+Temperature slider in Roo Code settings panel
+
+Create multipleAPI configuration profileswith different temperature settings:
+
+How to set up task-specific temperature profiles:
+
+This approach optimizes model behavior for specific tasks without manual adjustments.
+
+Roo Code implements temperature handling with these considerations:
+
+Experimenting with different temperature settings is the most effective way to discover what works best for your specific needs:
+
+Remember that different models may respond differently to the same temperature values, and thinking-enabled models always use a fixed temperature of 1.0 regardless of your settings.
+
+
+LISTS:
+- Welcome
+- Getting Started
+- FeaturesAPI Configuration ProfilesAuto-Approving ActionsBoomerang TasksBrowser UseCheckpointsCode ActionsCustom InstructionsCustom ModesEnhance PromptFast EditsFootgun PromptingModel TemperatureImport/Export/Reset SettingsSuggested ResponsesTerminal Shell IntegrationTool UseMCPExperimentalAdditional Features
+- Advanced Usage
+- Model Providers
+- FAQ
+- Tutorial Videos
+- Community
+- Update Notes
+
+- API Configuration Profiles
+- Auto-Approving Actions
+- Boomerang Tasks
+- Browser Use
+- Checkpoints
+- Code Actions
+- Custom Instructions
+- Custom Modes
+- Enhance Prompt
+- Fast Edits
+- Footgun Prompting
+- Model Temperature
+- Import/Export/Reset Settings
+- Suggested Responses
+- Terminal Shell Integration
+- Tool Use
+- MCP
+- Experimental
+- Additional Features
+
+- 
+- Features
+- Model Temperature
+
+- Low Temperature (near 0.0):Produces predictable, consistent code. Good for simple tasks, but can be repetitive and lack creativity. It doesn't guaranteebettercode.
+- High Temperature:Increases randomness, potentially leading to creative solutions but also more errors or nonsensical code. It doesn't guaranteehigher-qualitycode.
+- Accuracy:Code accuracy depends on the model's training and prompt clarity, not temperature.
+- Temperature 0.0:Useful for consistency, but limits exploration needed for complex problems.
+
+- Code Mode (0.0-0.3):For writing precise, correct code with consistent, deterministic results
+- Architect Mode (0.4-0.7):For brainstorming architecture or design solutions with balanced creativity and structure
+- Ask Mode (0.7-1.0):For explanations or open-ended questions requiring diverse and insightful responses
+- Debug Mode (0.0-0.3):For troubleshooting bugs with consistent precision
+
+- User-defined settings take priority over defaults
+- Provider-specific behaviors are respected
+- Model-specific limitations are enforced:Thinking-enabled models require a fixed temperature of 1.0Some models don't support temperature adjustments
+
+- Thinking-enabled models require a fixed temperature of 1.0
+- Some models don't support temperature adjustments
+
+- Works with allAPI providerssupported by Roo Code
+- Complementscustom instructionsfor fine-tuning responses
+- Works alongsidecustom modesyou create
+
+- What is Temperature?
+- Default Values in Roo Code
+- When to Adjust Temperature
+- How to Adjust Temperature
+- Using API Configuration Profiles for Temperature
+- Technical Implementation
+- ExperimentationEffective Temperature Testing
+- Related Features
+
+- Effective Temperature Testing
+
+- Discord
+- Reddit
+- Twitter
+
+- Issues
+- Feature Requests
+
+- VS Code Marketplace
+- Open VSX Registry
+
+- Contact
+- Careers
+- Website Privacy Policy
+- Extension Privacy Policy
+
+
+LISTS:
+- Open the Roo Code Panel:Click the Roo Code icon () in the VS Code Activity Bar
+- Open Settings:Click theicon in the top right corner
+- Find Temperature Control:Navigate to the Providers section
+- Enable Custom Temperature:Check the "Use custom temperature" box
+- Set Your Value:Adjust the slider to your preferred valueTemperature slider in Roo Code settings panel
+
+- Create specialized profiles like "Code - Low Temp" (0.1) and "Ask - High Temp" (0.8)
+- Configure each profile with appropriate temperature settings
+- Switch between profiles using the dropdown in settings or chat interface
+- Set different profiles as defaults for each mode for automatic switching when changing modes
+
+- Start with defaults- Begin with Roo Code's preset values (0.0 for most tasks) as your baseline
+- Make incremental adjustments- Change values in small steps (±0.1) to observe subtle differences
+- Test consistently- Use the same prompt across different temperature settings for valid comparisons
+- Document results- Note which values produce the best outcomes for specific types of tasks
+- Create profiles- Save effective settings asAPI configuration profilesfor quick access
+
