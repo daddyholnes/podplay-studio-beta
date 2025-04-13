@@ -1,55 +1,39 @@
-import React, { useState, useEffect } from 'react';
-import { collection, query, onSnapshot, orderBy, addDoc, serverTimestamp } from "firebase/firestore";
-import { db } from './firebase';
-import { initializeApp } from 'firebase/app';
-import { getAuth, onAuthStateChanged } from 'firebase/auth';
-
-const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
-};
-
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-
-// Save a message
-async function saveMessage(userId, modelId, message) {
-  await addDoc(collection(db, 'conversations', userId, modelId, 'messages'), {
-    content: message.content,
-    role: message.role,
-    timestamp: Date.now()
-  });
-}
-
-// Load conversation history
-function loadConversation(userId, modelId, setMessages) {
-  const q = query(
-    collection(db, 'conversations', userId, modelId, 'messages'),
-    orderBy('timestamp')
-  );
-  
-  return onSnapshot(q, (snapshot) => {
-    const messages = [];
-    snapshot.forEach((doc) => {
-      messages.push(doc.data());
-    });
-    setMessages(messages);
-  });
-}
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { ThemeProvider } from '../src/contexts/ThemeContext';
+import { ChatProvider } from '../src/contexts/ChatContext';
+import LeftSidebar from '../src/components/Layout/LeftSidebar';
+import RightSidebar from '../src/components/Layout/RightSidebar';
+import ChatInterface from '../src/components/Chat/ChatInterface';
+import LiveAPIPage from '../src/components/LiveAPI/LiveAPIPage';
+import { auth } from '../src/firebase-config';
 
 export default function App() {
-  const [messages, setMessages] = useState([
-    { content: "Hello", role: "user" },
-    { content: "Hi there!", role: "assistant" }
-  ]);
-  const [selectedModel, setSelectedModel] = useState('claude-3-7');
-  const [content, setContent] = useState('');
-  const [user, setUser] = useState(null);
+  return (
+    <Router>
+      <ThemeProvider>
+        <ChatProvider>
+          <div className="app-container">
+            <LeftSidebar />
+            
+            <main className="main-content">
+              <nav>
+                <Link to="/">Chat</Link>
+                <Link to="/live">Live API</Link>
+              </nav>
+
+              <Routes>
+                <Route path="/" element={<ChatInterface />} />
+                <Route path="/live" element={<LiveAPIPage />} />
+              </Routes>
+            </main>
+
+            <RightSidebar />
+          </div>
+        </ChatProvider>
+      </ThemeProvider>
+    </Router>
+  );
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
@@ -123,3 +107,5 @@ export default function App() {
     </>
   );
 }
+
+
