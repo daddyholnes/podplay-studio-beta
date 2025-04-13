@@ -1,0 +1,53 @@
+{
+  "mcpServers": {
+    "firebase": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-firebase-tools", "start"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "codeInterpreter": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-code-interpreter", "start"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "webSearch": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-web-search", "start"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "fileSystem": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-fs", "start"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "firebaseEmulator": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-firebase-emulator", "start"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "vertexAI": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-vertex-ai", "start"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "conversationMemory": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-conversation-memory", "start"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

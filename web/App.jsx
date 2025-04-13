@@ -43,7 +43,10 @@ function loadConversation(userId, modelId, setMessages) {
 }
 
 export default function App() {
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState([
+    { content: "Hello", role: "user" },
+    { content: "Hi there!", role: "assistant" }
+  ]);
   const [selectedModel, setSelectedModel] = useState('claude-3-7');
   const [content, setContent] = useState('');
   const [user, setUser] = useState(null);
@@ -96,9 +99,9 @@ export default function App() {
       
       {/* Main Chat Area */}
       
-        {messages.map(message => (
+        {messages.map((message, index) => (
           
-            {message.content}
+            {message,content}
           
         ))}
       
