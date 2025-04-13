@@ -38,8 +38,26 @@ export async function sendMessageToModel(userId, modelId, message, history) {
 }
 
 // Implement API calls for each model provider
+import { geminiModel } from '../firebase-config';
+
 async function callGeminiAPI(history, message) {
-  // Implementation using your Gemini API key
+  try {
+    const formattedHistory = history.map(msg => ({
+      role: msg.role,
+      parts: [{ text: msg.content }]
+    }));
+
+    const prompt = {
+      role: 'user',
+      parts: [{ text: message }]
+    };
+
+    const result = await geminiModel.generateContent([...formattedHistory, prompt]);
+    return result.response.text();
+  } catch (error) {
+    console.error("Error calling Gemini API:", error);
+    return "Sorry, there was an error processing your request.";
+  }
 }
 
 async function callClaudeAPI(history, message) {
