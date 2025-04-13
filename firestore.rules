@@ -1,9 +1,24 @@
-// firestore.rules
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    match /conversations/{userId}/{document=**} {
+    match /conversations/{userId} {
+      // Allow the owner to read/write their own conversation document
       allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // Rules for the 'models' subcollection within a conversation
+      match /models/{modelId} {
+        // Allow any authenticated user to read model information
+        allow read: if request.auth != null;
+        // Allow write only if the user is authenticated via Google
+        // This could represent an admin or specific user type
+        allow write: if request.auth != null && request.auth.token.firebase.identities['google.com'] != null;
+      }
+
+      // Add rules for other potential subcollections if needed
+      // match /otherSubcollection/{docId} { ... }
     }
+
+    // Add rules for other top-level collections if needed
+    // match /users/{userId} { ... }
   }
 }

@@ -1,11 +1,11 @@
-I0413 00:29:34.427199   58955 env.go:20] Enabled Preview Flags: conn_evolution
-I0413 00:29:34.429522   58955 load.go:37] Reloading schema and connectors...
-I0413 00:29:34.547227   58955 control.go:71] [/emulator/podplay-studio-beta 9792] UpdateResources(): done
+I0413 04:11:35.106702  113474 env.go:20] Enabled Preview Flags: conn_evolution
+I0413 04:11:35.108471  113474 load.go:37] Reloading schema and connectors...
+I0413 04:11:35.199434  113474 control.go:71] [/emulator/podplay-studio-beta 0d07] UpdateResources(): done
 Schema: sources: schema/schema.gql [2088B] 
-Connector "default": sources: connector/queries.gql [1802B] connector/mutations.gql [1233B] 
-I0413 00:29:34.581384   58955 env.go:20] Enabled Preview Flags: conn_evolution
-I0413 00:29:34.642149   58955 collector.go:107] schema extensions wrote into "/home/user/podplay-studio-beta/dataconnect/.dataconnect/schema"
+Connector "default": sources: connector/mutations.gql [1233B] connector/queries.gql [1802B] 
+I0413 04:11:35.228692  113474 env.go:20] Enabled Preview Flags: conn_evolution
+I0413 04:11:35.290385  113474 collector.go:107] schema extensions wrote into "/home/user/podplay-studio-beta/dataconnect/.dataconnect/schema"
 Generated sources: prelude.gql [67159B] 
-I0413 00:29:34.642327   58955 load.go:115] Finished reloading
-I0413 00:29:34.646233   58955 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:50003
-I0413 00:29:34.713897   58955 engine.go:170] [/emulator/podplay-studio-beta 9792] ExecuteGraphqlRead IntrospectionQuery: succeeded. 
+I0413 04:11:35.290445  113474 load.go:115] Finished reloading
+I0413 04:11:35.296264  113474 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:50003
+I0413 04:11:35.577966  113474 engine.go:170] [/emulator/podplay-studio-beta 0d07] ExecuteGraphqlRead IntrospectionQuery: succeeded. 
