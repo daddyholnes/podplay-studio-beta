@@ -1,0 +1,24 @@
+schemaVersion: 2.0.0
+metadata:
+  name: firebase-ai-studio
+  version: 1.0.0
+components:
+  - name: dev
+    container:
+      image: public.ecr.aws/aws-mde/universal-image:latest
+commands:
+  - id: install
+    exec:
+      component: dev
+      commandLine: "npm install && pip install -r requirements.txt"
+      workingDir: ${PROJECT_SOURCE}
+  - id: build
+    exec:
+      component: dev
+      commandLine: "npm run build"
+      workingDir: ${PROJECT_SOURCE}
+  - id: test
+    exec:
+      component: dev
+      commandLine: "echo 'No test command configured in package.json. Add test scripts to enable testing.'"
+      workingDir: ${PROJECT_SOURCE}
